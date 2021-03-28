@@ -17,9 +17,6 @@ Github to Computer
 1-git fetch
 2-git merge
 3-git pull
-4- Nuri branch is created
-5- Nuri branch is created fgbfgf
-
 
 
 4- git log
