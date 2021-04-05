@@ -7,7 +7,7 @@ public class SwitchStatement02 {
     public static void main(String[] args) {
 	/*
 	 * If the user pressed 1, 2, 3 the program will print the number that is
-	 * pressed; otherwise, program will print “Not allowed”.
+	 * pressed; otherwise, program will print Not allowed.
 	 */
 
 	Scanner scanner = new Scanner(System.in);
