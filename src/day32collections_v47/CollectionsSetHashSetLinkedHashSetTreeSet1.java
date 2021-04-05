@@ -1,8 +1,6 @@
 package day32collections_v47;
 
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class CollectionsSetHashSetLinkedHashSetTreeSet1 {
      /*
@@ -35,29 +33,69 @@ public class CollectionsSetHashSetLinkedHashSetTreeSet1 {
 
     /*
        TreeSet:
-       1)TreeSet puts the elements in "natural order"
+       1)TreeSet puts the elements in "natural order". It add all elements in order, work hard.
        2)TreeSet does not contain repeated elements
        3)"null" can be used in TreeSet just once
        4)TreeSet is super slow because of that we do not prefer to use TreeSet even we need sorted collection
     */
 
     public static void main(String[] args) {
-linkedHashSet();
-
+        linkedHashSet();
+        linkedHashSetRetainAll();
 
 
     }
-    public static void linkedHashSet(){
 
-        //It keeps insertion order
+    public static void linkedHashSet() {
+
+        //It keeps insertion order, It is fast adding and removing elements.
         LinkedHashSet<Integer> lhSet = new LinkedHashSet<>();
         lhSet.add(1);
         lhSet.add(3);
         lhSet.add(2);
         System.out.println(lhSet);
-
     }
-    public static void hashSet(){
+
+    public static void linkedHashSeHashcodet1() {
+        /*
+        The hash code of a set is defined to be the sum of the hash codes of the elements in the set,
+        where the hash code of a null element is defined to be zero.
+         */
+
+        //It keeps insertion order, It is fast adding and removing elements.
+        LinkedHashSet<Integer> lhSet = new LinkedHashSet<>();
+        lhSet.add(1);
+        lhSet.add(3);
+        lhSet.add(2);
+        System.out.println(lhSet.hashCode());//6,
+    }
+
+    public static void linkedHashSetRetainAll() {
+         /*
+         checking each element returned by the iterator in turn to see if it's contained in the specified collection.
+         If it's not so contained, it's removed from this collection with the iterator's remove method.
+
+         1- retainAll(): Keeps the same elements, remove different elements.
+         2- If you want to keep common elements use retainAll from LinkedHashSet
+         a.retainAll(b) just update a.
+          */
+
+
+        LinkedHashSet<Integer> lhSet = new LinkedHashSet<>();
+        lhSet.add(1);
+        lhSet.add(3);
+        lhSet.add(2);
+        System.out.println(lhSet.hashCode());
+
+        LinkedHashSet<Integer> lhSet1 = new LinkedHashSet<>();
+        lhSet1.add(2);
+        lhSet1.add(3);
+        lhSet1.add(3);
+        System.out.println(lhSet.retainAll(lhSet1));
+        System.out.println(lhSet);
+    }
+
+    public static void hashSet22() {
 
         /*
         By selecting data type as object or by not declaring data type,
@@ -85,7 +123,8 @@ linkedHashSet();
         System.out.println(hSet1);
 
     }
-    public static void treeSet(){
+
+    public static void treeSet() {
 
         TreeSet<Integer> tSet = new TreeSet<>();
         tSet.add(12);
@@ -94,4 +133,5 @@ linkedHashSet();
         tSet.add(0);
         System.out.println(tSet);//[-12, 0, 12, 32]
     }
+
 }
