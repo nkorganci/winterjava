@@ -5,10 +5,8 @@ public class L00_AbstractInterface {
     //https://www.youtube.com/watch?v=f2Nr29KJpfM
 
     /*
-    1-Abstract class: Incomplete class
-    2-When you extend a class to "abstract" class, it should complete the abstract method.
-    3-Abstract class can have any kind of variable, private, default, private
-    4-It can have implemented or incomplete methods
+
+
 
      */
 

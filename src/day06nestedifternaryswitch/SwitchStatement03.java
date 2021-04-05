@@ -6,9 +6,9 @@ public class SwitchStatement03 {
 
     public static void main(String[] args) {
 	/*
-	 * Ask user ta enter one of the ‘U’, ‘S’, and ‘A’. Then type a program by using
-	 * “switch statement” to print “United” for ‘U’ “States” for ‘S’, and “America”
-	 * for ‘A’
+	 * Ask user ta enter one of the U, S, and A. Then type a program by using
+	 * switch statement to print United for U States for S, and America
+	 * for A
 	 */
 
 	Scanner scan = new Scanner(System.in);

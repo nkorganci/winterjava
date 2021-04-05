@@ -4,8 +4,10 @@ public class LogicalOperators {
 
 	public static void main(String[] args) {
 		
-		/* Assignment operator, comparison operaton,logical operator.
-		 *Operators in Java
+		/* Assignment operator, comparison operation,logical operator.
+		 Operators in Java
+
+
 		 
 		 1) = is assignment operator, gets the value from right and puts
 		 it in to container on the left. 
@@ -19,13 +21,14 @@ public class LogicalOperators {
 		 
 		 4) > means greater than, returns boolean
 		 
-		 COMPARISONS return Boolean
+		 	COMPARISONS return Boolean
 		 
-		 5) && AND Operator, || OR operator
+		 5) && AND Operator; returns false if one of them is false
+		 	|| OR operator; returns false if both of them are false
 		 
 		 6) & AND Operator is SAME WITH &&, but there is a small differences,
-		 &&: if one of them is false , it does not look at others, &: it checks 
-		 all parameters;
+		 	&&: if one of them is false , it does not look at others, &: it checks
+		 	all parameters;
 		 
 		  
 		 */

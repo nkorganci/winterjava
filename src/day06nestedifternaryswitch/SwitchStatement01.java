@@ -34,10 +34,13 @@ public class SwitchStatement01 {
 	    System.out.println("Write a valid number");
 	}
 
-	// Second Way, after 3 condition , use SWITCH, more readable, simple, faster
-	// than if else
-	// long , double, float, boolean, can not be used
-	// String, char, int, byte,short can be used.
+	 /*
+	 Second Way, after 3 condition , use SWITCH, more readable, simple, faster than if else
+
+	 long , double, float, boolean, can not be used
+	 String, char, int, byte,short can be used.
+	  */
+
 
 	switch (a) {
 	case 1:
