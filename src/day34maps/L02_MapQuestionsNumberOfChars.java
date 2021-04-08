@@ -9,17 +9,21 @@ public class L02_MapQuestionsNumberOfChars {
    Example: Hellooo ==> {H=1, e=1, l=2, o=3}
    */
 
+
+
     public static void main(String[] args) {
 
-        System.out.println(getNumOfChars("Hellooo"));//{e=1, H=1, l=2, o=3}
 
-        }
+        System.out.println(getNumOfChars("Helloooo"));//
+
+    }
 
     public static HashMap<String, Integer> getNumOfChars(String str) {
 
         HashMap<String, Integer> map = new HashMap<>();
 
         String arr[] = str.split("");
+
         System.out.println(Arrays.toString(arr));
 
         for (String w : arr) {

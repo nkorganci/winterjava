@@ -10,6 +10,55 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\a_Questions\AnimalConstructor.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day09methodoverloadingloops\L02_ForLoop01.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day10forloops\ForLoop02.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day10forloops\ForLoop04.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day10forloops\ForLoopDrawTriangle.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day10forloops\ForLoopsUpsideDownTriangle.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day10forloops\Reverse2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\day31interfacecollections_v46\LIstMethods.java">
           <value>
             <Attribute>
@@ -42,6 +91,20 @@
           <value>
             <Attribute>
               <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day34maps\MapQuestions03HW.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day34maps\sample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
@@ -80,6 +143,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\day35mapslambda\L01_ExamplePrintIntegersWithoutUsingIntegers.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day35mapslambda\L02_ConvertSsvToMap.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day35mapslambda\L04_HashTable.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day35mapslambda\L05_TreeMao01.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\day35mapslambda\lambda\LambdaWithInt.java">
           <value>
             <Attribute>
@@ -102,6 +193,13 @@
           </value>
         </entry>
         <entry key="\src\day36\L01_LambdaTheory.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day36\L01_LambdaWithInt.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

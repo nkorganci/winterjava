@@ -29,9 +29,7 @@ public class L02_MapQuestionsReturnNonRepeatedElements {
         for (String w: arr){
 
             map.computeIfPresent(w, (key, value)-> value+1);
-            System.out.println(map);
             map.computeIfAbsent(w,k->1);
-            System.out.println(map);
         }
         //EntrySet return set
         for(Map.Entry<String, Integer> w : map.entrySet()){
