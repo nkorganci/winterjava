@@ -2,28 +2,50 @@ package day16multidimensionalarrays_V21;
 
 import java.util.Arrays;
 
-public class MutiDimArrays01 {
-    // QUESTION:Why arrays need toString method?
-    // Arrays can not have non primitive data
-    // Arrays use references of non primitive data types
-    // Array is an object
-    // 1) ArrayLists are flexible classes in size.
-    // 2) ArrayLists can not store multiple data types.
-    // 3) ArrayLists store non-primitive data types.
-    // 4) ArrayLists are updated version of Arrays.
-    // 5) If array is given, convert it to arrayList to use
+public class MultiDimArrays01 {
+
+	/*
+
+	QUESTION:Why arrays need toString method?
+
+	1- Non-primitives can not put directly, just their references.
+	2-
+	3-
+	4-
+	5-
+	6-
+	7-
+	8-
+	9-
+
+
+     Arrays can not have non primitive data
+     Arrays use references of non primitive data types
+     Array is an object
+     1) ArrayLists are flexible classes in size.
+     2) ArrayLists can not store multiple data types.
+     3) ArrayLists store non-primitive data types.
+     4) ArrayLists are updated version of Arrays.
+     5) If array is given, convert it to arrayList to use
+
+
+	 */
+
+
 
     public static void main(String[] args) {
-	// multiDimensionalArray();
-//	sumOfElements();
-//	sumOfFirstElements();
+    	multiDimensionalArray();
 
     }
 
     public static void multiDimensionalArray() {
+
 	int arr[][] = new int[3][2];// two dimensional array has two bracket.If All of them must has 2 items.
 
-	System.out.println(Arrays.deepToString(arr));// deepToString is used to print for 2 dimensional array.
+
+		//[[0, 0], [0, 0], [0, 0]], deepToString is used to print for 2 dimensional array.
+		System.out.println(Arrays.deepToString(arr));
+
 
 	int arr1[][] = { { 7, 2, 2 }, { 3, 6 }, { 9 } }; // If inner arrays have different number of elements.
 	System.out.println(arr1[0][1]);// How to print a specific element.console show 2.

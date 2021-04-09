@@ -65,6 +65,53 @@ public class StringManipulationsNew {
         System.out.println(a == c);// false, c is created as new container, difference box and reference
         System.out.println(a == f);// same values but different references
         System.out.println(a.equals(f));
+
+
+    }
+    public static void equals1() {
+        int a = 2;
+        int b = 2;
+        System.out.println(a == b);// true, "==" for primitive, this is an operator,compare, references
+
+        // Comparison of two string, not object
+        String c = "2";
+        String d = "2";
+        System.out.println(c == d);// true, "==" for String
+        System.out.println(c.equals(d));// true, "equals" for string,equals() is a method
+
+        // Comparison of an object and string copy
+        String e = new String();
+        e = "2";
+        String f = new String();
+        f = "2";
+        System.out.println(e == f);// "==" for String
+        System.out.println(e.equals(f));// "equals" for string
+
+        // compare two objects
+        String g = new String("2");// Object 1,same values but different references
+        String h = new String("2");// Object 2
+        System.out.println(g == h);// return false, 2 object, 2 references
+        System.out.println(g.equals(h));// return true, same values
+
+        Thread t1 = new Thread();
+        Thread t2 = new Thread();
+        Thread t3 = t1;
+
+        String s1 = new String("GEEKS");
+        String s2 = new String("GEEKS");
+
+        String s3 = "GEEKS";
+
+        System.out.println(s3 == s1);
+        System.out.println(s3.equals(s1));
+
+        System.out.println(t1 == t3);
+        System.out.println(t1 == t2);
+        System.out.println(s1 == s2);
+
+        System.out.println(t1.equals(t2));
+        System.out.println(s1.equals(s2));
+
     }
 
     public static void indexOf1() {// int indexOf(int ch)
