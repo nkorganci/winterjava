@@ -1,7 +1,10 @@
 package Git;
 /*
+
+4/12
+
 QUESTION:
-hOW CAN WE FIND FILDER GIT
+hOW CAN  FIND FOLDER GIT
 Intellij automatically updated???
 
 From computer to Github
