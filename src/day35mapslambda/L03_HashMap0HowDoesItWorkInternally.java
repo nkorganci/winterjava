@@ -14,12 +14,6 @@ public class L03_HashMap0HowDoesItWorkInternally {
     6- New element might go to 3rd bucket which is called Hash Collision
     7- Java creates "HashCode" by using "Key"
     8- Java uses "LinkList" for every bucket, if there there are hash collision, java can add multi list
-    9-
-    10-
-    11-
-    12-
-
-
      */
 
     public static void main(String[] args) {
