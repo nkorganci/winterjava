@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class LambdaWidthMethodReferenceStrings {
+public class L04_LambdaWidthMethodReferenceStrings {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("Ali");
@@ -16,7 +16,6 @@ public class LambdaWidthMethodReferenceStrings {
         list.add("Tucker");
         list.add("Christ");
 
-        sortWithLength(list);
     }
 
     public static void startWithA(List<String> list) {
@@ -25,25 +24,38 @@ public class LambdaWidthMethodReferenceStrings {
         1-Create a method to print list elements which are starting with "A"
          */
 
-        list.stream().filter(t -> t.startsWith("A")).forEach(t -> System.out.println(list + " "));
+        list.stream().filter(t -> t.startsWith("A")).map(t->t.toUpperCase()).forEach(t -> System.out.println(list + " "));
 
-        list.stream().filter(Utils::startWithA).forEach(t -> System.out.println(list + " "));
+        list.stream().filter(Utils::startWithA).map(String::toUpperCase).forEach(t -> System.out.println(list + " "));
 
         //list.stream().filter(String::startsWith).forEach(t -> System.out.println(list + " "));
         // --> problem  String::startsWith
 
-        //"startWithA" method is very specific method. Reusability is not possible.
-        //Sometimes no need to use "method refernce" use "lambda expression"
-        //list.stream().filter(Utils.startWithA).forEach(t -> System.out.println(list + " "));
+        /*
+
+        "startWithA" method is very specific method. Reusability is not possible.
+         Sometimes no need to use "method refernce" use "lambda expression"
+        list.stream().filter(Utils.startWithA).forEach(t -> System.out.println(list + " "));
+
+         */
+
 
     }
 
     public static void sortWithLength(List<String> list) {
         //3rd  create a method to print the elements in uppercases after ordering according to their lengths.
         list.stream().map(t -> t.toUpperCase()).sorted(Comparator.comparing(t -> t.length())).forEach(t -> System.out.print(t + " "));
+
         System.out.println();
+
         list.stream().map(String::toUpperCase).sorted(Comparator.comparing(String::length)).forEach(System.out::print);
     }
+
+    public static void startWithAendWithO(List<String> list) {
+        list.stream().filter(t -> t.startsWith("Al") || t.endsWith("no")).map(t -> t.toLowerCase()).forEach(t -> System.out.println(t + " "));
+
+        list.stream().filter(t -> t.startsWith("Al") || t.endsWith("no")).map(t -> t.toLowerCase()).forEach(t -> System.out.println(t + " "));
+    }// boolean endsWith(String suffix), true if the character sequence represented by the argument is a suffix of the character
 
     public static void sortWithLastCharacters(List<String> list) {
         //4th
@@ -84,10 +96,11 @@ public class LambdaWidthMethodReferenceStrings {
 
     public static List<String> removeIfLengthLessThanFive(List<String> list) {
         /*
-        if you want to "rmove()" methods , do not use stream(), work with list directly.
+        if you want to use "remove()" methods , do not use stream(), work with list directly.
          */
         list.removeIf(t -> t.length() < 5);
         return list;
 
     }
+
 }
