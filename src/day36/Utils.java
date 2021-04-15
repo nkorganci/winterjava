@@ -10,6 +10,9 @@ public class Utils {
     public static int findSquare(int a){
         return a*a;
     }
+    public static int findCupe(int a){
+        return a*a*a;
+    }
     public static boolean startWithA(String s) {
         return s.startsWith("A");
     }

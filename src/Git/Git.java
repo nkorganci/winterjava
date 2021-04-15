@@ -26,9 +26,6 @@ Github to Computer
 
 5- git branch-->decide/change name of
 
-
-
-
  */
 
 public class Git {

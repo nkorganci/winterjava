@@ -1,12 +1,13 @@
 package day36;
 
-public class Course {
+public class L06_Course {
+
     private String season;
     private String courseName;
     private int averageScore;
     private int numberOfStudents;
 
-    public Course(String season, String courseName, int averageScore, int numberOfStudents) {
+    public L06_Course(String season, String courseName, int averageScore, int numberOfStudents) {
         this.season = season;
         this.courseName = courseName;
         this.averageScore = averageScore;
