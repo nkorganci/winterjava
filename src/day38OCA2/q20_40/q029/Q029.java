@@ -11,7 +11,7 @@ public class Q029 {
 		points.add(3);
 		points.add(4);
 		points.add(null);
-		points.remove(1); 		// removes index!!!
+		points.remove(1); 		// removes index!!! // we can write "new Integer(1)" to remove number 1.
 		points.remove(null); 	//removes object and returns boolean
 		System.out.println(points);
 	}

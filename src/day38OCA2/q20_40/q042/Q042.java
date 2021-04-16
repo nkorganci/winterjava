@@ -8,10 +8,11 @@ public class Q042 {
 		sb.append("A");
 		sb.append("A");
 		sb.append("A");
+
 		System.out.println("before delete: " + sb);
 		
-		sb.delete(2, sb.length());  
-		
+		sb.delete(0, sb.length());
+
 		System.out.println("after delete: " + sb);
 
 	}
