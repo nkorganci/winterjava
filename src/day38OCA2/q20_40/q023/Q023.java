@@ -16,6 +16,7 @@ public class Q023 {
 			break;
 		}
 		//System.out.println(color); // cannot read the variable, created in the switch block
+		//System.out.println(colorCode); read 'y'
 	}
 }
 //What is the result?
