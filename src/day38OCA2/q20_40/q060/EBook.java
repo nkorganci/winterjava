@@ -1,5 +1,5 @@
-//package day38OCA2.q20_40.q060;
-//
+package day38OCA2.q20_40.q060;
+
 //interface Readable {
 //
 //	public void readBook();
@@ -13,7 +13,12 @@
 //
 //class EBook extends Book { 								// line n3
 //	public void readBook() { }
-//																		// line n4
+//
+////    @Override// Abstract method must be overrridden
+////    public void setBookMark() {
+////
+////    }
+//    // line n4
 //
 //}
 

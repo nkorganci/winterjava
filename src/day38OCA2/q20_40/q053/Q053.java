@@ -2,15 +2,17 @@ package day38OCA2.q20_40.q053;
 
 public class Q053 {
 
-	public static void main(String[] args) {
-		int num [] [] = new int [1] [3];
-		
-		for (int i = 0; i < num.length; i++) {  // num.length = 1
-			for (int j = 0; j < num[i].length; j++) {  // num[i].length =3
-				num [i][j]= 10;  
-			}
-		}
-	}}
+    public static void main(String[] args) {
+        int num[][] = new int[1][3];
+
+        for (int i = 0; i < num.length; i++) {  // num.length = 1
+            for (int j = 0; j < num[i].length; j++) {  // num[i].length =3
+                num[i][j] = 10;
+            }
+        }
+
+    }
+}
 
 /*
 Which option represents the state of the num array after successful completion of the outer loop?

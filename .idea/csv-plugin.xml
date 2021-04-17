@@ -24,6 +24,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\day00notes\L01_Label.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day07stringmethods\StringManipulationsNew.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\day09methodoverloadingloops\L02_ForLoop01.java">
           <value>
             <Attribute>
@@ -270,6 +284,83 @@
           </value>
         </entry>
         <entry key="\src\day36\LambdaWithObjects.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q047\C3.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q049\Q049.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q051\ReportTool.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q052\Test.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q053\Q053.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q055\Q056.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day38OCA2\q20_40\q057\Test.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day39MrUstun\q028\q050\q052\Test.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day40CodeUsingJava\Q001.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day40CodeUsingJava\Q008AutoBoxing.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\day40CodeUsingJava\Q009.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
