@@ -505,7 +505,8 @@ public class StringManipulationsNew {
         int c = Integer.valueOf("40",4);
         System.out.println(c);
 
-    } //Integer valueOf(String s) throws NumberFormatException
+    } //Integer valueOf(String s) throws NumberFormatException,
+    // Returns an Integer object holding the value of the specified String.
 
     public static void s637() {
 

@@ -4,7 +4,7 @@ public class Q056 {
 
 	public static void main(String[] args) {
 		String string = " "; // there is white space , not empty
-		string.trim(); //// it is not assigned to string, no affect
+		string.trim(); // it is not assigned to string, no affect
 		System.out.println(string.contentEquals("") + " " + string.isEmpty());
 	}
 }
