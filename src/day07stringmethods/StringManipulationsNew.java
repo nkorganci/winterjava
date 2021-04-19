@@ -508,8 +508,11 @@ public class StringManipulationsNew {
     } //Integer valueOf(String s) throws NumberFormatException,
     // Returns an Integer object holding the value of the specified String.
 
-    public static void s637() {
+    public static void repeatMethod() {
 
-    }
+        final String var = "-";
+        //var = var + "x";// If I assign to another one give error.
+        System.out.println(var.repeat(2) == "--");// did not give error beause is not assigned.
+    }//String repeat(int count), Returns a string whose value is the concatenation of this string repeated count times.
 
 }

@@ -354,5 +354,15 @@ public class L01_Array {
         System.out.println(list.equals(list1));// Q: Why it does not give true?
 
     }
+    public static void compare() {// Q
+
+
+
+    }
+    public static void mismatch() {// Q
+
+
+
+    }
 
 }
