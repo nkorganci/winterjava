@@ -1,14 +1,15 @@
-//package day41javadeveloper.Q066B;
-//import Q066A.Test;
-//public class Main {
-//
-//	public static void main(String[] args) {
-//		Test test=new Test("Student");
-//		System.out.println(test);
-//
-//	}
-//
-//}
+
+package day41javadeveloper.Q066B;
+import day41javadeveloper.Q066A.Test;
+public class Main {
+
+	public static void main(String[] args) {
+		Test test=new Test("Student");
+		System.out.println(test);
+
+	}
+
+}
 /* What is the result?
 A. null
 B. nothing
