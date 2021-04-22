@@ -20,7 +20,7 @@ public class Notes {
 
 
     ARRAY
-    1-  String [] a = new String[3];
+    1-  String [] a = new String[3];  l
         Variable 'a' contains the memory address of String array object.
         Since 'a' is of reference type, it prints a String Containing @ symbol.
 
