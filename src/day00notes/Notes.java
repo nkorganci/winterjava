@@ -3,6 +3,13 @@ package day00notes;
 public class Notes {
 
     /*
+    I HAVE TO STUDY
+
+    1-Boolean && || ?? differences
+     */
+
+
+    /*
     1-  Local variables can only be declared as final and not private
     2- Both the instance variable and the method have the name same as the class. This is allowed but is a bad practice
     2- "outer" and "inner" are valid label names can be used by continue and break
@@ -32,5 +39,11 @@ public class Notes {
         //You cannot use var in Lambda expressions.
         //You cannot use var for method signatures (in return types and parameters).
 
+     */
+
+    /*
+            STRING
+        1- If you assign a char to string gives error, if you dont no problem.
+        2- If you use charAt(), you can not use any more String methods, like concat().
      */
 }
