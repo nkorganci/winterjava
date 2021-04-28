@@ -22,7 +22,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		Greet i = new Greet();
+		Test.Greet i = new Greet();
 		i.print();
 		
 	}

@@ -8,5 +8,7 @@ public class DataTypes {
         byte b = 10;
        // char c = b;
         int d = b;
+
+        short sh = (short) 'A';
     }
 }

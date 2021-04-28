@@ -10,7 +10,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		Main c=new Main();
+		Main c= null;
 		c.greet();
 		
 
