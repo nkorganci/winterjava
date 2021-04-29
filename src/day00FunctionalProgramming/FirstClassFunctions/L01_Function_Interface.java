@@ -5,7 +5,8 @@ import java.util.function.Function;
 public class L01_Function_Interface {
 
     /*
-    Imperative:Java ->steps
+    First-class functions are functions that can be treated like any other value.
+    You can pass them to functions as arguments, return them from functions, and save them in variables.
      */
 
     /*
