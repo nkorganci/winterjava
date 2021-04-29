@@ -1,6 +1,6 @@
-package day00JavaPractice;
+package day00JavaPracticeGroup;
 
-public class Accounts {
+public class Accounts {///sdfsd
 
     private int accountNumber;
     private int pinNumber;

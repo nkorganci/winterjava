@@ -2,7 +2,11 @@ package day41javadeveloper.Q053;
 
 public class Foo {
 
-	private void print() {
+	Foo(String a){
+		System.out.println(a + "constructro");
+	}
+
+	void print() {
 		System.out.println("Bonjour le monde!");
 	}
 	public void foo() {
@@ -12,7 +16,10 @@ public class Foo {
 
 class Bar extends Foo {
 
-	private void print() {
+	Bar(){
+		super("Hi ");
+	}
+	void print() {
 		System.out.println("Hello world!");
 	}
 	public void bar() {
