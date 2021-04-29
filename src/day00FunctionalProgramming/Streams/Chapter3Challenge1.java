@@ -3,6 +3,7 @@ package day00FunctionalProgramming.Streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Chapter3Challenge1 {
 
@@ -51,9 +52,14 @@ public class Chapter3Challenge1 {
                 new Person("Jack", 27),
         };
         List<Person> people = new ArrayList<>(Arrays.asList(peopleArr));
-
         //Get a list that contains all they people's name
-        // Answer 1 goes here
+        //Solution
+        List<String> peopleNames = people.stream().map((t) -> t.name).collect(Collectors.toList());
+        System.out.println(peopleNames);
+
+
+
+
 
         Car[] carsArr = {
                 new Car("Chevy", "red", 45000f),
@@ -63,9 +69,15 @@ public class Chapter3Challenge1 {
                 new Car("Renault", "blue", 150000f),
         };
         List<Car> cars = new ArrayList<>(Arrays.asList(carsArr));
-
         //Return only blue cars
-        // Answer 2 goes here
+        //Solution
+        List<Car> blueCars= cars.stream().filter(t->t.color.equals("blue")).collect(Collectors.toList());
+        System.out.println(blueCars);
+
+
+
+
+
 
         Employee[] employeesArr = {
                 new Employee("John", 34, "developer", 80000f),
@@ -78,6 +90,7 @@ public class Chapter3Challenge1 {
         List<Employee> employees = new ArrayList<>(Arrays.asList(employeesArr));
 
         //Find the sum of the salaries
-        // Answer 3 goes here
+        Float sum = employees.stream().map(t->t.salary).reduce(0f,(x,y)->x+y);
+        System.out.println(sum);
     }
 }
