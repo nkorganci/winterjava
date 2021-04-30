@@ -5,8 +5,9 @@ import java.util.function.Function;
 public class L01_Function_Interface {
 
     /*
-    First-class functions are functions that can be treated like any other value.
+    1- First-class functions are functions that can be treated like any other value.
     You can pass them to functions as arguments, return them from functions, and save them in variables.
+
      */
 
     /*
@@ -36,7 +37,7 @@ public class L01_Function_Interface {
 
         Function<Integer,Integer>myTriple=MyMath::triple;
 
-        Integer result= myTriple.apply(3);
+        int result= myTriple.apply(3);
 
         Function<String,Integer>length=L01_Function_Interface::sample;
         Integer len=length.apply("hi");
