@@ -55,7 +55,7 @@ lambdaParameters();
         Consumer<Integer> method=System.out::println;//Consumer is an interface.
         numbers.forEach(method);
 
-        StringFunction exclaim =
+
 
     }
     interface StringFunction {
