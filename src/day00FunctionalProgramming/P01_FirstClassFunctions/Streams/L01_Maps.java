@@ -37,7 +37,7 @@ public class L01_Maps {
             doubled.add(result);
         }
 
-        //2.Functional Programming
+        //2.Functional Programming m
 
         Function<Integer,Integer> multiply= x-> x*2;
 
