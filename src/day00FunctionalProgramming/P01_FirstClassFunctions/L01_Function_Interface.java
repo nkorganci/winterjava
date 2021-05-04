@@ -43,6 +43,8 @@ public class L01_Function_Interface {
         Integer len=length.apply("hi");
         System.out.println(len);
 
+        //a
+
     }
 
 
