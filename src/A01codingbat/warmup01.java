@@ -8,8 +8,7 @@ public class warmup01 {
 
     }
 
-    public static String ex(String a) {
-        String result=a.substring(a.length()-2);
-        return result+result+result;
-    }
+    public static String ex(String a, String b) {
+
+
 }
