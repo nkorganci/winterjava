@@ -3,19 +3,19 @@ package A01codingbat;
 public class CodingBat {
     public static void main(String[] args) {
 
-        int [] a = {1,2,6};
+        int[] a = {1, 2, 6};
         System.out.println(coding(a));
 
     }
 
-    public static int[] coding(int[] a, int[] b){
+    public static boolean coding(int n,boolean w) {
 
-   int []  sum = new int[4];
-   for(int i=0;i<a.length;i++){
-       sum[i]=a[i];
-   }
-   for(int j=0;j<b.length;j++){
-       sum[a.length+j]=b[j];
-   }
-   return sum;
+        if(w&&n>=40){
+            return true;
+        }
+        return n<=60&&n>=40;
+
+        return w? n>=40:n<=60&&n>=40;
+
+}
 
