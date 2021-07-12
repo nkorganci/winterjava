@@ -8,14 +8,22 @@ public class CodingBat {
 
     }
 
-    public static boolean coding(int n,boolean w) {
+    public static String coding(int day, boolean vacation) {
 
-        if(w&&n>=40){
-            return true;
-        }
-        return n<=60&&n>=40;
+        /*
+            alarm
 
-        return w? n>=40:n<=60&&n>=40;
+            not on vacation
+            weekday 7, weekend 10
+
+            vacation
+            weekday 10, weekend off
+
+         */
+
+
+
+
 
 }
 
