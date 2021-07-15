@@ -8,18 +8,17 @@ public class CodingBat {
 
     }
 
-    public static String coding(int day, boolean vacation) {
+    public static boolean coding(int n, boolean w) {
 
-        /*
-            alarm
 
-            not on vacation
-            weekday 7, weekend 10
+    }
 
-            vacation
-            weekday 10, weekend off
+    public boolean nearTen(int num) {
 
-         */
+
+
+    }
+
 
 
 
