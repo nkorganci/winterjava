@@ -1,32 +1,23 @@
 package A01codingbat;
 
+import java.util.Arrays;
+
 public class CodingBat {
-    public static void main(String[] args) {
-
-        int[] a = {1, 2, 6};
-        System.out.println(coding(a));
-
-    }
-
-    public static boolean coding(int n, boolean w) {
 
 
-    }
+    public int makeChocolate(int small, int big, int goal) {
 
-    public int redTicket(int a, int b, int c) {
-
-        if(a==2&&b==2&&c==2){
-            return 10;
-        }else if(a==b&&b==c){
-            return 5;
-        }else if(b!=a&&c!=a){
-            return 1;
+        if(small+5*big<goal){
+            return -1;
+        }else if(small<big%5){
+            return -1;
         }else {
-            return 0;
-        }
+            if(goal<10){
+                return goal%5;
+            }
+        }return goal-big*5;
+
     }
 
 
-
-    }
 
