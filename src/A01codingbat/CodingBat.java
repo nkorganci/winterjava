@@ -9,24 +9,20 @@ public class CodingBat {
 
 
     }
-    public String mixString(String a, String b) {
+    public String getSandwich(String str) {
 
-        int min=Math.min(a.length(),b.length());
 
-        int x=0;
-        String total="";
-
-        while (x<min){
-            String aSub=a.substring(x,x+1);
-            String bSub=b.substring(x,x+1);
-            total+=aSub+bSub;
-            x++;
+        for (int i = 1; i < str.length()-1; i++) {
+            if(str.charAt(i)=='*'&&str.charAt(i-1)==str.charAt(i+1)){
+                return true;
+            }
         }
-        return total+a.substring(x) + b.substring(x);
-    }
+        return false;
 
 
-    }
+
+
+}
 
 
 
