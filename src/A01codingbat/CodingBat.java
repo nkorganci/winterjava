@@ -9,13 +9,13 @@ public class CodingBat {
 
         int length = str.length();
         int count = 0;
-        str=str.toLowerCase();
+        str = str.toLowerCase();
 
-        for (int i=0;i<length;i++){
-            if(str.charAt(i)=='y' || str.charAt(i)=='z'){
-                if(i<length-1 &&!Character.isLetter(str.charAt(i+1))){
+        for (int i = 0; i < length; i++) {
+            if (str.charAt(i) == 'y' || str.charAt(i) == 'z') {
+                if (i < length - 1 && !Character.isLetter(str.charAt(i + 1))) {
                     count++;
-                }else if(i==length-1){
+                } else if (i == length - 1) {
                     count++;
                 }
             }
@@ -26,5 +26,12 @@ public class CodingBat {
 
     }
 
+    public String withoutString(String base, String remove) {
 
+        String result="";
+        for (int i=0;i<base.length();i++){
+            if(i>base.length()-remove.length())
+        }
+
+    }
 }
