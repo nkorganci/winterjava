@@ -1,15 +1,24 @@
 package day31a_Collections;
 
-import java.util.Currency;
-import java.util.Locale;
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.util.*;
 
 public class A {
 
     public static void main(String[] args) {
-        Locale lc = Locale.CANADA;
-        Currency curr = Currency.getInstance(lc);
-        System.out.println("code: " + curr.getCurrencyCode());
-        System.out.println(curr);
-        System.out.println(lc);
+
+        List<String> list = new ArrayList<>();
+        list.add("D");
+        list.add("B");
+        list.add("C");
+
+        System.out.println(list);
+
+   Collections.sort(list);
+        System.out.println(list);
+
     }
 }
+
+
