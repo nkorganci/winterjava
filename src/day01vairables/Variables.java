@@ -186,5 +186,7 @@ public class Variables {
         2- Heap memory is used to store objects in java.
         3- Slack memory is very small relative to heap memory
          */
+
+        String a="Hi";
     }
 }
