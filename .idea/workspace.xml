@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31a_Collections/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day31a_Collections/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31a_Collections/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31a_Collections/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
