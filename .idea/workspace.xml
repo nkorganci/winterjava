@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/second/Second.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Second">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day31a_Collections.A" />
       <module name="winterjava" />
@@ -86,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day31a_Collections.Main" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day31a_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultithreadThing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day31a_Collections.MultithreadThing" />
       <module name="winterjava" />
@@ -112,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21accessmodifierstringbuilder_ReferenceForPractice.second.Second" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21accessmodifierstringbuilder_ReferenceForPractice.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Second" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MultithreadThing" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

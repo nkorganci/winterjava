@@ -3,7 +3,8 @@ package day21accessmodifierstringbuilder_ReferenceForPractice.first;
 public class Main {
 
     public static void main(String[] args) {
-        First a = new First("Hello World");
-        System.out.println(a.str);
+        First a = new First("Hello");
+        a.show();
+
     }
 }
