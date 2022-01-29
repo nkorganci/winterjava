@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/second/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
