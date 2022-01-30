@@ -38,11 +38,29 @@ public class P1_File {
 
         //3 Make directory mkdir
 
-//        boolean mkdir = file.mkdir();
+//        boolean mkdir = file.mkdir("src/day25inputoutputstreamsP/files");
 //        System.out.println(mkdir);
 
         // 4 LIST OF ITEMS IN FILE
-        File file1 = new File("day25inputoutputstreamsP/file1");
+        File file1 = new File("src/day25inputoutputstreamsP/file1.txt");
+        try {
+           boolean f= file1.createNewFile();
+           if(f){
+               System.out.println(file1.getName()+ " Created");
+           }else {
+               System.out.println(file1.getName()+ " Not created");
+           }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 5 list() of files
+        File file2 = new File("src/day25inputoutputstreamsP/file2.txt");
+        try {
+            file2.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }
