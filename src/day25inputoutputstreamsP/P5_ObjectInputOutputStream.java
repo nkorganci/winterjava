@@ -1,4 +1,4 @@
-package day25inputoutputstreamsP.text01;
+package day25inputoutputstreamsP;
 
 
 import java.io.*;

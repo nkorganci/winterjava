@@ -23,18 +23,3 @@ public class P8_InputStreamReader {
 
     }
 }
-
-class  OutputStreamWriter1{
-    public static void main(String[] args) {
-
-        String output = "Hello";
-        try {
-            FileOutputStream fileInput = new FileOutputStream("src/day25inputoutputstreamsP/text01.txt");
-            OutputStreamWriter outputWriter = new OutputStreamWriter(fileInput);
-            System.out.println(outputWriter.getEncoding());
-            outputWriter.write(output);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-}
