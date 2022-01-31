@@ -1,2 +1,0 @@
-I learn fileInputStream
-It reads data as byte

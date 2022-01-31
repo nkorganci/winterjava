@@ -9,6 +9,7 @@ public class P2_FileInputStream {
     // InputStream use binary(byte) stream, abstract class
     // InputStream sub classes : FileInputStream, ByteArrayInputStream, ObjectInputStream
     //  FileInputStream sınıfı, dosyalardan verileri (bayt cinsinden) okumak için kullanılır.
+    //A FileInputStream obtains input bytes from a file in a file system.
     public static void main(String[] args) {
 
                 // 1  I called FileInputStream class to read file
