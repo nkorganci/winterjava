@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P2_FileReaderFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P2_FileInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P3_FileOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P4_ByteArrayInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P6_BufferedInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/P5_ObjectInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/b.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/SquareNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/SquareNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P1_File$list.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/ObjectInputOutput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/SquareNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01_codevue/file.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P1_File.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P1_File.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01_codevue/SquareNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01_codevue/SquareNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/file1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/file3.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P1_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P1_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P2_FileReaderFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/file1" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/buffered.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileInputStream.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/file3.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +73,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01_codevue.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25inputoutputstreamsP.text01.Main" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01_codevue.*" />
+          <option name="PATTERN" value="day25inputoutputstreamsP.text01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,21 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1_Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.P1_Player" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14constructorsstatickeywordarrays_V19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P2_FileReaderFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25inputoutputstreamsP.P2_FileReaderFileWriter" />
+    <configuration name="P2_FileInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25inputoutputstreamsP.P2_FileInputStream" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01_codevue.SquareNumber" />
+    <configuration name="P3_FileOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25inputoutputstreamsP.P3_FileOutputStream" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01_codevue.*" />
+          <option name="PATTERN" value="day25inputoutputstreamsP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P4_ByteArrayInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25inputoutputstreamsP.P4_ByteArrayInputStream" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day25inputoutputstreamsP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SquareNumber" />
-        <item itemvalue="Application.P2_FileReaderFileWriter" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.P4_ByteArrayInputStream" />
+        <item itemvalue="Application.P3_FileOutputStream" />
+        <item itemvalue="Application.P2_FileInputStream" />
         <item itemvalue="Application.P1_File" />
-        <item itemvalue="Application.P1_Player" />
       </list>
     </recent_temporary>
   </component>

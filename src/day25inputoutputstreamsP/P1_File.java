@@ -1,7 +1,9 @@
 package day25inputoutputstreamsP;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class P1_File {
     //input Stream==> read
@@ -9,60 +11,59 @@ public class P1_File {
     //There are Byte Streams and Character Streams
     //All byte streams are produced from  InputStream and OutputStream abstract classes.
     // All character stream is produced from READER and WRITER abstract classes
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         /*
         File has four method
-        1-createNew()
-        2-delete()
-        3-read()
-        4-write()
+        1-createNew(),         2-delete(),         3-read(),         4-write()
          */
 
-        //1 CREATE FILE
-        File file = new File("src/day25inputoutputstreamsP/file.txt");
-        try{
-            boolean value=file.createNewFile();
-            if(value){
-                System.out.println("New file is created");
-            }else {
-                System.out.println("New file could not be created");
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        //2 DELETE FILE
-//        file.delete();
-//        System.out.println(file.delete());// Will return true
-
-        //3 Make directory mkdir
-
-//        boolean mkdir = file.mkdir("src/day25inputoutputstreamsP/files");
-//        System.out.println(mkdir);
-
-        // 4 LIST OF ITEMS IN FILE
-        File file1 = new File("src/day25inputoutputstreamsP/file1.txt");
+        // 1 Create a File
+        File file = new File("src/day25inputoutputstreamsP/text01.txt");
         try {
-           boolean f= file1.createNewFile();
-           if(f){
-               System.out.println(file1.getName()+ " Created");
+           boolean isCreated= file.createNewFile();
+           if(isCreated){
+               System.out.println(file.getName()+" File Created");
            }else {
-               System.out.println(file1.getName()+ " Not created");
+               System.out.println("Could not created");
            }
-        } catch (IOException e) {
+
+        } catch (Exception e) {
             e.printStackTrace();
+
         }
 
-        // 5 list() of files
-        File file2 = new File("src/day25inputoutputstreamsP/file2.txt");
+        //2 Delete a file
+
+        File fileDelete = new File("src/day25inputoutputstreamsP/text01.txt");
+        boolean isDeleted=fileDelete.delete();
+        if(isDeleted){
+            System.out.println("File is deleted");
+        }
+
+        //3 Create a directory
+
+        File createDir = new File("src/day25inputoutputstreamsP/text01");//Create a folder
+        createDir.mkdirs();
+
+        //4 List of files
+        File listFiles = new File("src/day25inputoutputstreamsP/text01");
+        //4a print as array
+        String [] filesArray= listFiles.list();
+        System.out.println(Arrays.toString(filesArray));
+        //4b Print as a string
+        for (String str: filesArray){
+            System.out.println(str);
+        }
+
+        // 5 Write to a File
         try {
-            file2.createNewFile();
+            FileWriter  myWriter = new FileWriter("src/day25inputoutputstreamsP/text01.txt");
+           myWriter.write("I wrote something on the text file");
+            myWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
     }
-
 }
