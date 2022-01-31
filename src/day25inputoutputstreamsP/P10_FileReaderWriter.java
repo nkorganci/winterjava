@@ -27,9 +27,12 @@ public class P10_FileReaderWriter {
 
 class fileWriter{
     public static void main(String[] args) {
+        String data = "Hellow World";
         try {
             FileWriter  fWriter = new FileWriter("src/day25inputoutputstreamsP/fileWriter.txt");
-            fWriter.write(("file writer"));
+            fWriter.write(data);
+//            fWriter.flush();
+            fWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
