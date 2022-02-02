@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P2_StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleCalAvr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_StaticCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P5_StaticExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/BalancedBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P1_Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P1_Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P2_Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/BalancedBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P1_Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P1_Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P2_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,33 +55,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.P2_StaticClass">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.A" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.BalancedBrackets" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P4_Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.Main" />
       <module name="winterjava" />
@@ -126,13 +95,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P3_ExampleMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.P3_ExampleMainClass" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14constructorsstatickeywordarrays_V19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P4_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.P4_Main" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14constructorsstatickeywordarrays_V19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P4_Main" />
+        <item itemvalue="Application.P3_ExampleMainClass" />
         <item itemvalue="Application.P2_StaticClass" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.P1_Player" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.BalancedBrackets" />
       </list>
     </recent_temporary>
   </component>
