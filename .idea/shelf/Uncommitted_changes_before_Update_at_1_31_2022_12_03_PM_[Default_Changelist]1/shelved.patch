@@ -1,0 +1,27 @@
+Index: src/AAAA/Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/AAAA/Car.java b/src/AAAA/Car.java
+new file mode 100644
+--- /dev/null	
++++ b/src/AAAA/Car.java	
+@@ -0,0 +1,17 @@
++package AAAA;
++
++import java.util.Scanner;
++
++public class Car {
++
++    public static void main(String[] args) {
++        Scanner input = new Scanner(System.in);
++
++        System.out.println("Please write your age: ");
++        String age = input.nextLine();
++
++
++        System.out.println("My age is: " + age);
++
++    }
++}
