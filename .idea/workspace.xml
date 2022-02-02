@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_StaticCodeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P5_StaticExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
