@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/Inheritance1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/OddEvenStrPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/Inheritance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
