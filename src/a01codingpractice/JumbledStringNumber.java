@@ -8,7 +8,6 @@ public class JumbledStringNumber {
     // string into digits
     static String finddigits(String s)
     {
-
         // Strings of digits 0-9
         String[] num
                 = { "zero", "one", "two",   "three", "four",
