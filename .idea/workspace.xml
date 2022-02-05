@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/Inheritance1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/OddEvenStrPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/JumbledStringNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/JumbledStringNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/SelfDescriptiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/SelfDescriptiveNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/A.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +59,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.P1_EncapsulationRunner">
-    <configuration name="Exception1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.Exception1" />
+  <component name="RunManager" selected="Application.ReverseArray">
+    <configuration name="OddEvenStrPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.hackerrank.OddEvenStrPrint" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a01codingpractice.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelfDescriptiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.SelfDescriptiveNumber" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.hackerrank.ReverseArray" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a01codingpractice.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +117,7 @@
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a01codingpractice.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.OddEvenStrPrint" />
         <item itemvalue="Application.P1_EncapsulationRunner" />
         <item itemvalue="Application.P1_EncapsulationA" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Exception1" />
-        <item itemvalue="Application.SelfDescriptiveNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +157,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
