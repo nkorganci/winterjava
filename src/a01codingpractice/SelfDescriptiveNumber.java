@@ -1,6 +1,7 @@
 package a01codingpractice;
 
-public class SelfDescriptiveNumber {
+public class  SelfDescriptiveNumber{
+
     public static void main(String[] args) {
 
         for (int i = 0; i < 10000; i++) {
@@ -10,7 +11,7 @@ public class SelfDescriptiveNumber {
         }
 
     }
-
+//2020   0123
     public static boolean isSelfDescriptiveNumber(int num) {
         String s = Integer.toString(num);
         for (int i = 0; i < s.length(); i++) {
