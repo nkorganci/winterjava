@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM_[Default_Changelist]1/P1_Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/JumbledStringNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/JumbledStringNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/JumbledStringNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/Solution.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +49,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.Main" />
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.A" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.Main" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14constructorsstatickeywordarrays_V19.*" />
+          <option name="PATTERN" value="a01codingpractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.P4_Main" />
         <item itemvalue="Application.P3_ExampleMainClass" />
         <item itemvalue="Application.P2_StaticClass" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
