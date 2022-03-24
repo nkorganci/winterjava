@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day17arraylists_V24/I01_ArrayLIstInterview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/L01_ArrayLIsts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day17arraylists_V24/L01_ArrayLIsts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/AllCollisionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/BasicDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/Collision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/CollisionListCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/CollisionListFunctionalCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/CollisionSetCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/CountingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/ForEachCollisionCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/GridCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/GridDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/GridSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/GridTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day00FunctionalProgramming/P02_LambdaExpressions/Exercise/collisions/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day17arraylists_V24/I01_ArrayLIstInterview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day17arraylists_V24/I01_ArrayLIstInterview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/I01_ArrayLIstInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day17arraylists_V24/I01_ArrayLIstInterview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
