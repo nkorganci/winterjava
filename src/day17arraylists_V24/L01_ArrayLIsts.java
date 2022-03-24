@@ -122,7 +122,7 @@ toArray();
 //	System.out.println(list1);
 
         // Method 3: Iteration method
-        List<String> list2 = new ArrayList<String>();
+        List<String> list2 = new ArrayList<>();
         for (String text : array) {
             list2.add(text);
         }
