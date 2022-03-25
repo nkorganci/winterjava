@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Child.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/HelloAndroid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass$subclass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass$superclass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Parent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/HelloAndroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.HelloAndroid">
+  <component name="RunManager" selected="Application.Polymorphism">
     <configuration name="A (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day14constructorsstatickeywordarrays_V19.A" />
       <module name="winterjava" />
@@ -113,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25overridingexceptions_36.run" />
+    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.Polymorphism" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25overridingexceptions_36.*" />
+          <option name="PATTERN" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polymorphism" />
         <item itemvalue="Application.HelloAndroid" />
         <item itemvalue="Application.NewClass" />
         <item itemvalue="Application.I01_ArrayLIstInterview" />
         <item itemvalue="Application.A (1)" />
-        <item itemvalue="Application.run" />
       </list>
     </recent_temporary>
   </component>

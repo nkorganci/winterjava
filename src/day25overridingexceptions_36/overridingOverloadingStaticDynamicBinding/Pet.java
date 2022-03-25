@@ -25,5 +25,10 @@ class Polymorphism{
         List<Pet> pets = new ArrayList<>();
         pets.add(new Cat());
         pets.add(new Dog());
+
+        for(Pet pet:pets){
+            pet.makeSound();
+        }
+
     }
 }
