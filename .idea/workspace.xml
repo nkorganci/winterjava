@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/Sleeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02java/review/A2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02java/review/L01_InitializeObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/TrueFalse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/Sleeping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/TrueFalse.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +60,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HelloAndroid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.HelloAndroid" />
+  <component name="RunManager" selected="Application.L01_InitializeObject">
+    <configuration name="L01_InitializeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02java.review.L01_InitializeObject" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*" />
+          <option name="PATTERN" value="a02java.review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02java.review.Main" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02java.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="a01codingpractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.NewClass" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L01_InitializeObject" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StringClass" />
         <item itemvalue="Application.Polymorphism" />
-        <item itemvalue="Application.HelloAndroid" />
-        <item itemvalue="Application.NewClass" />
       </list>
     </recent_temporary>
   </component>
