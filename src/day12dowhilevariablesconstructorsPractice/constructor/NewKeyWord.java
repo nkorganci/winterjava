@@ -10,6 +10,8 @@ public class NewKeyWord {
     public static void main(String[] args) {
 
         Parent obj = new Parent();// It call constructor
+        obj.id=2;
+        System.out.println(obj.id);
 
 
     }

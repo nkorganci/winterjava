@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L01_InitializeObjectVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L01_InitializeClassVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Sleeping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L01_InitializeObjectVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +60,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="a02java" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.L01_InitializeObjectVariables">
-    <configuration name="L01_InitializeObjectVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L01_InitializeObjectVariables" />
+  <component name="RunManager" selected="Application.L01_InitializeClassVariable">
+    <configuration name="L01_InitializeClassVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.L01_InitializeClassVariable" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L01_InitializeObjectVariables" />
+        <item itemvalue="Application.L01_InitializeClassVariable" />
         <item itemvalue="Application.NewKeyWord" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StringClass" />
