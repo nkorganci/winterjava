@@ -5,6 +5,7 @@ public class L06_StaticVariable {
 
 }
 
+// Static value is common property
 class C{
     int id;
     String name;

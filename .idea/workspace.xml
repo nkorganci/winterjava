@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L05_CopyConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L06_StaticVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L07StaticNonStaticCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L08_StaticClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/c.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/c.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L06_StaticVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L06_StaticVariable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C">
+  <component name="RunManager" selected="Application.D1$D2">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.B" />
       <module name="winterjava" />
@@ -88,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L01_InitializeClassVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L01_InitializeClassVariable" />
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.D" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L02_AnonymousObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L02_AnonymousObject" />
+    <configuration name="D1$D2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.D1$D2" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D1$D2" />
+        <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.L01_InitializeClassVariable" />
-        <item itemvalue="Application.L02_AnonymousObject" />
       </list>
     </recent_temporary>
   </component>
