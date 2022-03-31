@@ -3,15 +3,25 @@ package a02Review;
 public class AE {
 }
 
-abstract class c{
-    public void ob1(){
-
+class Class1{
+    public void display(){
+        System.out.println("Display method inside Class1.");
     }
-    public void b(){
-
+    public static void displayS(){
+        System.out.println("Display method inside Class1.");
     }
-    public abstract void action();
-    public void after() {
+}
 
+class Test extends Class1{
+    public void display(){
+        System.out.println("Display method inside Class2.");
+    }
+    public static void displayS(){
+        System.out.println("Display method inside Class1.");
+    }
+    public static void main(String args[]){
+        Test obj = new Test();
+        obj.display();
+       obj.displayS();
     }
 }

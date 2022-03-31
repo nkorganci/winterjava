@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L09_This.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L10_Inheritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/AE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/AE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L09_This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L09_This.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +66,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A7">
-    <configuration name="A4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.A4" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="A23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.A23" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.A5" />
+    <configuration name="C1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.C1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.A6" />
+    <configuration name="C3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.C3" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.A7" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Test" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1$D2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.D1$D2" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Test1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A7" />
-        <item itemvalue="Application.A6" />
-        <item itemvalue="Application.A5" />
-        <item itemvalue="Application.A4" />
-        <item itemvalue="Application.D1$D2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.C3" />
+        <item itemvalue="Application.C1" />
+        <item itemvalue="Application.A23" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
