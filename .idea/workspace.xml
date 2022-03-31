@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L10_Inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/AE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/AE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L09_This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L09_This.java" afterDir="false" />
-    </list>
+    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
