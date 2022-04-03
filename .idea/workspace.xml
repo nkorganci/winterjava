@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L01_InitializeClassVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L12_Overloading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Sleeping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L01_InitializeObjectVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +46,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/a02Review" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.L01_InitializeClassVariable">
-    <configuration name="L01_InitializeClassVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L01_InitializeClassVariable" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="a02java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Circle">
+    <configuration name="A23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.A23" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.Main" />
+    <configuration name="C1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.C1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewKeyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12dowhilevariablesconstructorsPractice.constructor.NewKeyWord" />
+    <configuration name="C3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.C3" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12dowhilevariablesconstructorsPractice.constructor.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.Polymorphism" />
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Circle" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.StringClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Test" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L01_InitializeClassVariable" />
-        <item itemvalue="Application.NewKeyWord" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringClass" />
-        <item itemvalue="Application.Polymorphism" />
+        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.C3" />
+        <item itemvalue="Application.C1" />
+        <item itemvalue="Application.A23" />
       </list>
     </recent_temporary>
   </component>
