@@ -47,3 +47,29 @@ class Start{
 
     }
 }
+
+class Bank{
+    int interestRate(){
+        return 0;
+    }
+}
+
+class BankA extends Bank{
+    int interestRate(){
+        return 8;
+    }
+}
+class BankB extends Bank{
+    int interestRate(){
+        return 99;
+    }
+}
+
+class Test2{
+    public static void main(String[] args) {
+        BankA obj = new BankA();
+        BankB obj1 = new BankB();
+        System.out.println("Chase interest rate " + obj.interestRate());
+
+    }
+}
