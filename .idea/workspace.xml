@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L15_CovariantReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L16_Instance_Initializer_block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L17_FinalKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2022_7_13_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2022_7_13_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/M.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/M.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/AE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/AE.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +63,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E05">
-    <configuration name="D4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.D4" />
+  <component name="RunManager" selected="Application.CC1">
+    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.AA" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.E02" />
+    <configuration name="AA1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.AA1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.E05" />
+    <configuration name="AE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.AE" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.M" />
+    <configuration name="BB1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.BB1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.Test2" />
+    <configuration name="CC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.CC1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E05" />
-        <item itemvalue="Application.M" />
-        <item itemvalue="Application.E02" />
-        <item itemvalue="Application.D4" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.CC1" />
+        <item itemvalue="Application.AA1" />
+        <item itemvalue="Application.AE" />
+        <item itemvalue="Application.AA" />
+        <item itemvalue="Application.BB1" />
       </list>
     </recent_temporary>
   </component>
