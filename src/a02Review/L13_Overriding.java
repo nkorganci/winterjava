@@ -73,3 +73,6 @@ class Test2{
 
     }
 }
+
+// Runtime polymorphism example
+

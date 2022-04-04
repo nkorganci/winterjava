@@ -28,7 +28,15 @@ class CC1{
         System.out.println("numStatic " + numStatic);
     }
 
+    void cal(final int a){
+
+        System.out.println(a*a);
+    }
     public static void main(String[] args) {
-        new CC1();
+        new CC1().cal(3);
+        new CC1().cal(4);
     }
 }
+
+// What is final parameter?
+

@@ -1,5 +1,7 @@
 package a02Review;
 
+import a01codingpractice.ValueOfKAfterFunctionRun;
+
 public class L12_Overloading {
 
     void cal(int a, int b){
@@ -42,3 +44,23 @@ class Bike extends Vehicle{
         obj.run();
     }
 }
+
+// compile time polymorphism
+
+class AB{
+    static void run(){
+        System.out.println("run");
+    }
+    static void run(String a){
+        System.out.println("run1");
+    }
+
+    void run(int a){
+        System.out.println("non static");
+    }
+
+    public static void main(String[] args) {
+        AB.run("HI");
+    }
+}
+
