@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L18_InstanceOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L19_Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/NewKeyWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L20_Interface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/AB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/AB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/Bike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/D10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/D10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/L12_Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/L12_Overloading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L12_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L12_Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DDD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DDD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L19_Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L19_Abstraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,9 +64,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBank">
-    <configuration name="AB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.AB" />
+  <component name="RunManager" selected="Application.AC">
+    <configuration name="AC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.AC" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AC" />
         <item itemvalue="Application.TestBank" />
         <item itemvalue="Application.TestAbstraction1" />
         <item itemvalue="Application.NotAbstract" />
         <item itemvalue="Application.DDD" />
-        <item itemvalue="Application.AB" />
       </list>
     </recent_temporary>
   </component>

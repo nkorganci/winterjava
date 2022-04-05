@@ -75,4 +75,19 @@ class TestBank{
     }
 }
 
-//
+//Abstact class can be implement just one time.
+
+abstract class Dd{
+    abstract void run();
+}
+class Ddd extends Dd{
+
+    @Override
+    void run() {
+
+    }
+}
+
+class Dddd extends Ddd{
+
+}
