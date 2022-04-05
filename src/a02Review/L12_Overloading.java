@@ -64,3 +64,18 @@ class AB{
     }
 }
 
+// Static binding
+
+class DD{
+    private void run(){
+        System.out.println("private");
+    }
+    void run(String a){
+        System.out.println("non static");
+    }
+
+    public static void main(String[] args) {
+        DD obj = new DD();
+        obj.run();
+    }
+}
