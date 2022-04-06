@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L20_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L21_Encapsulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DDD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DDD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L19_Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L19_Abstraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/AE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/AE.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +63,7 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AC">
+  <component name="RunManager" selected="Application.ZA">
     <configuration name="AC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.AC" />
       <module name="winterjava" />
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DDD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.DDD" />
+    <configuration name="L022_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.L022_Arrays" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -91,21 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.NotAbstract" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAbstraction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.TestAbstraction1" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Student" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.ZA" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZA" />
+        <item itemvalue="Application.L022_Arrays" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.AC" />
         <item itemvalue="Application.TestBank" />
-        <item itemvalue="Application.TestAbstraction1" />
-        <item itemvalue="Application.NotAbstract" />
-        <item itemvalue="Application.DDD" />
       </list>
     </recent_temporary>
   </component>
