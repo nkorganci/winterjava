@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L01_ThreadByExtending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L02_Sleept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L03_Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L04_ThreadStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L05_ConcurrencyProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/L022_Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/L022_Arrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +62,22 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadJoinExample">
-    <configuration name="MyThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.MyThread2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.A" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.Main" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -105,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSleepMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.TestSleepMethod1" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.thread.ThreadJoinExample" />
       <module name="winterjava" />
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.ThreadJoinExample" />
         <item itemvalue="Application.RunTwice" />
         <item itemvalue="Application.TestSleep" />
-        <item itemvalue="Application.TestSleepMethod1" />
-        <item itemvalue="Application.MyThread2" />
       </list>
     </recent_temporary>
   </component>
