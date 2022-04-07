@@ -17,3 +17,20 @@ class Main extends Thread{
         amount++;
     }
 }
+
+//Concurrent method name
+
+class B extends Thread{
+    @Override
+    public void run() {
+        super.run();
+        System.out.println(Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args) {
+        B t1 = new B();
+        B t2 = new B();
+        t1.start();
+        t2.start();
+    }
+}

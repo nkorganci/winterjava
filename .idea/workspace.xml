@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L04_ThreadStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L05_ConcurrencyProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L06_ThreadName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L07_Priority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/thread/L05_ConcurrencyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/thread/L05_ConcurrencyProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +63,35 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.C">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.thread.A" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.B" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.C" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -89,34 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.RunTwice" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.TestSleep" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.ThreadJoinExample" />
+    <configuration name="Naming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.Naming" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.Naming" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.ThreadJoinExample" />
-        <item itemvalue="Application.RunTwice" />
-        <item itemvalue="Application.TestSleep" />
       </list>
     </recent_temporary>
   </component>
