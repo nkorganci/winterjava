@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L21_Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L01_ThreadByExtending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L02_Sleept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread/L03_Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/AE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/AE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/L022_Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/L022_Arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L022_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +65,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZA">
-    <configuration name="AC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.AC" />
+  <component name="RunManager" selected="Application.ThreadJoinExample">
+    <configuration name="MyThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.MyThread2" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L022_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L022_Arrays" />
+    <configuration name="RunTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.RunTwice" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.Student" />
+    <configuration name="TestSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.TestSleep" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.TestBank" />
+    <configuration name="TestSleepMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.TestSleepMethod1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.ZA" />
+    <configuration name="ThreadJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread.ThreadJoinExample" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZA" />
-        <item itemvalue="Application.L022_Arrays" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.AC" />
-        <item itemvalue="Application.TestBank" />
+        <item itemvalue="Application.ThreadJoinExample" />
+        <item itemvalue="Application.RunTwice" />
+        <item itemvalue="Application.TestSleep" />
+        <item itemvalue="Application.TestSleepMethod1" />
+        <item itemvalue="Application.MyThread2" />
       </list>
     </recent_temporary>
   </component>
