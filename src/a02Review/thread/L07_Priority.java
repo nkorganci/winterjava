@@ -17,7 +17,7 @@ class C extends Thread{
 
         System.out.println("priority of c1 " + c1.getPriority());
         System.out.println("priority of c2 " + c2.getPriority());
-        c1.setPriority();
+        c1.setPriority(3);
     }
 }
 
