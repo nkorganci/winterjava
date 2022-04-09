@@ -1,0 +1,388 @@
+Index: src/a02Review/L14_SuperKeyWord.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package a02Review;\r\n\r\npublic class L14_SuperKeyWord {\r\n}\r\n// 1 Super is used to call parent variable or method\r\nclass E{\r\n    String name =\"Parent E string\";\r\n    void print(){\r\n        System.out.println(\"parent E\");\r\n    }\r\n}\r\nclass E1 extends E{\r\n    String name = super.name;\r\n    void print(){\r\n        super.print();\r\n        System.out.println(\"child e1\");\r\n    }\r\n}\r\nclass M{\r\n    public static void main(String[] args) {\r\n        E1 obj = new E1();\r\n        obj.print();\r\n    }\r\n}\r\n// 1) super is used to refer immediate parent class instance variable.\r\nclass E01{\r\n    String color = \"White\";\r\n    static String str = \"static\";\r\n}\r\nclass E02 extends E01{\r\n    String color = \"Black\";\r\n    void printColor(){\r\n        System.out.println(color); // print black\r\n        System.out.println(super.color);// print white\r\n        System.out.println(E01.str);\r\n    }\r\n    public static void main(String[] args) {\r\n        E02 obj = new E02();\r\n        obj.printColor();\r\n    }\r\n}\r\n\r\n/*\r\n2) super can be used to invoke parent class method\r\nThe super keyword can also be used to invoke parent class method.\r\nIt should be used if subclass contains the same method as parent class. In other words, it is used if method is overridden.\r\n */\r\nclass E03{\r\n    void eat(){\r\n        System.out.println(\"eating...\");\r\n    }\r\n}\r\nclass E04 extends E03{\r\n    void eat(){\r\n        System.out.println(\"eating bread\");\r\n    }\r\n    void bark(){\r\n        System.out.println(\"barking\");\r\n    }\r\n    void work(){\r\n        super.eat();// if you dont use super, it will not call the parent eat.\r\n        bark();\r\n    }\r\n}\r\n\r\nclass E05{\r\n    public static void main(String[] args) {\r\n        E04 obj = new E04();\r\n        obj.work();\r\n    }\r\n}\r\n\r\n/*\r\n3) super is used to invoke parent class constructor.\r\nThe super keyword can also be used to invoke the parent class constructor.\r\n */
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/L14_SuperKeyWord.java b/src/a02Review/L14_SuperKeyWord.java
+--- a/src/a02Review/L14_SuperKeyWord.java	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
++++ b/src/a02Review/L14_SuperKeyWord.java	(date 1649027121653)
+@@ -73,4 +73,76 @@
+ /*
+ 3) super is used to invoke parent class constructor.
+ The super keyword can also be used to invoke the parent class constructor.
+- */
+\ No newline at end of file
++ */
++
++class E06{
++    E06(){
++        System.out.println("Animal is created...");
++    }
++}
++
++class E07 extends E06{
++    E07(){
++        super();
++        System.out.println("dog is created...");
++    }
++}
++
++class E08{
++    public static void main(String[] args) {
++        E07 obj = new E07();
++    }
++}
++
++// Another example of super keyword where super() is provided by the compiler implicitly.
++
++class E09{
++    E09(){
++        System.out.println("Animal is created");
++    }
++}
++
++class E10 extends E09{
++    E10(){
++        // super(); // we have a hidden super key here.
++        System.out.println("dog is created");
++    }
++}
++
++class Run1{
++    public static void main(String[] args) {
++        E10 obj = new E10();
++    }
++}
++
++// Real use of super key word
++class Person{
++    int id;
++    String name;
++    //Constructor to initialize
++    Person(int id, String name){
++        this.id=id;
++        this.name=name;
++    }
++}
++
++class Emp extends Person{
++    float salary;
++    Emp(int id,String name, float salary){
++        super(id,name);
++        this.salary= salary;
++    }
++
++    void display(){
++        System.out.println(id + " " + name + " " + salary);
++    }
++}
++
++class Run01{
++    public static void main(String[] args) {
++        Emp obj = new Emp(1,"Hi",33f);
++        obj.display();
++
++    }
++
++}
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_3_29_2022_7_33_AM_[Default_Changelist]/shelved.patch	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
++++ /dev/null	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
+@@ -1,24 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/a02Review/L01_InitializeObjectVariables.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"23PyCg0wmHN5s41zN8KtMMJr957\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.IDE.editor.colors.Color Scheme Font\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"a02java\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.L01_InitializeObjectVariables\">\r\n    <configuration name=\"L01_InitializeObjectVariables\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.L01_InitializeObjectVariables\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a01codingpractice.Main\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a01codingpractice.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NewKeyWord\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day12dowhilevariablesconstructorsPractice.constructor.NewKeyWord\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day12dowhilevariablesconstructorsPractice.constructor.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Polymorphism\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.Polymorphism\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StringClass\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a01codingpractice.StringClass\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a01codingpractice.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.L01_InitializeObjectVariables\" />\r\n        <item itemvalue=\"Application.NewKeyWord\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.StringClass\" />\r\n        <item itemvalue=\"Application.Polymorphism\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1641649890491</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1641649890491</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 08255ba58041c70490bb7bdcac06a60f8b2aa728)
+-+++ b/.idea/workspace.xml	(date 1648510264274)
+-@@ -6,6 +6,13 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+-       <change afterPath="$PROJECT_DIR$/src/a02Review/L01_InitializeObjectVariables.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02java/review/A.class" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02java/review/A2.class" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02java/review/Demo.class" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02java/review/L01_InitializeObject.class" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02java/review/Main.class" beforeDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_3_28_2022_9_19_PM_[Default_Changelist]/shelved.patch	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
++++ /dev/null	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
+@@ -1,46 +0,0 @@
+-Index: src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package day12dowhilevariablesconstructorsPractice.constructor;\r\n\r\n//Points to remember\r\n//        It is used to create the object.\r\n//        It allocates the memory at runtime.\r\n//        All objects occupy memory in the heap area.\r\n//        It invokes the object constructor.\r\n//        It requires a single, postfix argument to call the constructor\r\npublic class NewKeyWord {\r\n    public static void main(String[] args) {\r\n\r\n        Parent obj = new Parent();// It call constructor\r\n\r\n\r\n    }\r\n}\r\n\r\nclass Parent{\r\n    //instance variable\r\n    int id;\r\n    //class variable\r\n   static String name;\r\n\r\n   //Constructor with parameter\r\n    Parent(String name,int id){\r\n        this.id=id;\r\n        this.name= name;\r\n    }\r\n    //constructor without parameter\r\n    Parent(){\r\n        System.out.println(\"Constructor is invoked\");\r\n    }\r\n\r\n    //non static method\r\n    public void sleep(){\r\n        System.out.println(\"We are sleeping non static\");\r\n    }\r\n\r\n    public static void run(){\r\n        System.out.println(\"static run method\");\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java b/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java
+---- a/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java	(revision f9530efb504fcbcb42fc15881bd421848fb51725)
+-+++ b/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java	(date 1648435770451)
+-@@ -10,6 +10,8 @@
+-     public static void main(String[] args) {
+- 
+-         Parent obj = new Parent();// It call constructor
+-+        obj.id=2;
+-+        System.out.println(obj.id);
+- 
+- 
+-     }
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"23PyCg0wmHN5s41zN8KtMMJr957\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.IDE.editor.colors.Color Scheme Font\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.NewKeyWord\">\r\n    <configuration name=\"HelloAndroid\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.HelloAndroid\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a01codingpractice.Main\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a01codingpractice.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NewKeyWord\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day12dowhilevariablesconstructorsPractice.constructor.NewKeyWord\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day12dowhilevariablesconstructorsPractice.constructor.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Polymorphism\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.Polymorphism\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"day25overridingexceptions_36.overridingOverloadingStaticDynamicBinding.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StringClass\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a01codingpractice.StringClass\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a01codingpractice.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.NewKeyWord\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.StringClass\" />\r\n        <item itemvalue=\"Application.Polymorphism\" />\r\n        <item itemvalue=\"Application.HelloAndroid\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1641649890491</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1641649890491</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision f9530efb504fcbcb42fc15881bd421848fb51725)
+-+++ b/.idea/workspace.xml	(date 1648437333676)
+-@@ -5,13 +5,9 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+--      <change afterPath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: src/a02Review/L16_InstanceInitializerBlock.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/L16_InstanceInitializerBlock.java b/src/a02Review/L16_InstanceInitializerBlock.java
+new file mode 100644
+--- /dev/null	(date 1649028182883)
++++ b/src/a02Review/L16_InstanceInitializerBlock.java	(date 1649028182883)
+@@ -0,0 +1,17 @@
++package a02Review;
++
++public class L16_InstanceInitializerBlock {
++}
++class Bike7{
++    int speed;
++    Bike7(){
++        System.out.println("speed is " + speed);
++    }
++    {
++        speed=100;
++    }
++    public static void main(String[] args) {
++        Bike7 b1 = new Bike7();
++        Bike7 b2 = new Bike7();
++    }
++}
+\ No newline at end of file
+Index: src/a02Review/L17_StaticBlock.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/L17_StaticBlock.java b/src/a02Review/L17_StaticBlock.java
+new file mode 100644
+--- /dev/null	(date 1649031679091)
++++ b/src/a02Review/L17_StaticBlock.java	(date 1649031679091)
+@@ -0,0 +1,62 @@
++package a02Review;
++// 1 How to create a static block?
++public class L17_StaticBlock {
++    static int b;
++    public static void show(){
++        System.out.println("static method");
++    }
++    static {
++        b=7;
++        show();
++    }
++
++    public static void main(String[] args) {
++        System.out.println("Main method");
++    }
++}
++
++// 2 How do the multiple static blocks?
++
++class Mainclass{
++    static int b;
++    public static void show(){
++        System.out.println("Static method ");
++    }
++    static {
++        b=5;
++        System.out.println("value of b " + b);
++    }
++    static {
++        b=10;
++        System.out.println("value of b " + b);
++    }
++
++    public static void main(String[] args) {
++        System.out.println("Main method");
++
++        Mainclass obj = new Mainclass();
++        System.out.println(Mainclass.b);
++    }
++}
++
++// static and non -static block
++class staticBlock{
++    int a;
++    static int b;
++
++    static {
++        System.out.println("b static " + b);
++        b=3;
++        System.out.println("b static " + b);
++    }
++    {
++        a=33;
++        System.out.println("a non static " + a);
++    }
++
++    public static void main(String[] args) {
++        System.out.println("Main method ");
++        staticBlock obj = new staticBlock();
++
++    }
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/a02Review/L15_CovariantReturnType.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/winterjava/a02Review/M.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/winterjava/a02Review/M.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"23PyCg0wmHN5s41zN8KtMMJr957\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/a02Review\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.IDE.editor.colors.Color Scheme Font\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"a02java\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\NKorganci\\IdeaProjects\\winterjava\\src\\a02Review\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.E05\">\r\n    <configuration name=\"D4\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.D4\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E02\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.E02\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E05\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.E05\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"M\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.M\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Test2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.Test2\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.E05\" />\r\n        <item itemvalue=\"Application.M\" />\r\n        <item itemvalue=\"Application.E02\" />\r\n        <item itemvalue=\"Application.D4\" />\r\n        <item itemvalue=\"Application.Test2\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1641649890491</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1641649890491</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3cfebd2de7a61ba7eebf1b8fe8fbcfa7e0fef101)
++++ b/.idea/workspace.xml	(date 1649031617156)
+@@ -5,9 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/a02Review/L15_CovariantReturnType.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/a02Review/L16_InstanceInitializerBlock.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/a02Review/L17_StaticBlock.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/M.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/M.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -62,9 +62,9 @@
+       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.E05">
+-    <configuration name="D4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.D4" />
++  <component name="RunManager" selected="Application.staticBlock">
++    <configuration name="Bike7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.Bike7" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+@@ -76,8 +76,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.E02" />
++    <configuration name="L17_StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.L17_StaticBlock" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+@@ -89,8 +89,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.E05" />
++    <configuration name="Mainclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.Mainclass" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+@@ -102,8 +102,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.M" />
++    <configuration name="Run01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.Run01" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+@@ -115,8 +115,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.Test2" />
++    <configuration name="staticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.staticBlock" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+@@ -130,11 +130,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.E05" />
+-        <item itemvalue="Application.M" />
+-        <item itemvalue="Application.E02" />
+-        <item itemvalue="Application.D4" />
+-        <item itemvalue="Application.Test2" />
++        <item itemvalue="Application.staticBlock" />
++        <item itemvalue="Application.L17_StaticBlock" />
++        <item itemvalue="Application.Mainclass" />
++        <item itemvalue="Application.Bike7" />
++        <item itemvalue="Application.Run01" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -160,4 +160,15 @@
+       </map>
+     </option>
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java</url>
++          <line>143</line>
++          <option name="timeStamp" value="3" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file

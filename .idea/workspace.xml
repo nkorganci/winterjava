@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L01_TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L16_InstanceInitializerBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/L17_StaticBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/thread/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/thread/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,13 +62,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L02_HandlingException">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.array.Array" />
+  <component name="RunManager" selected="Application.staticBlock">
+    <configuration name="Bike7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Bike7" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.array.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.thread.C" />
+    <configuration name="L17_StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.L17_StaticBlock" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.thread.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L02_HandlingException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.L02_HandlingException" />
+    <configuration name="Mainclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Mainclass" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TryCatch" />
+    <configuration name="Run01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.Run01" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TryCatch1" />
+    <configuration name="staticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.staticBlock" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L02_HandlingException" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.TryCatch1" />
-        <item itemvalue="Application.TryCatch" />
-        <item itemvalue="Application.C" />
+        <item itemvalue="Application.staticBlock" />
+        <item itemvalue="Application.L17_StaticBlock" />
+        <item itemvalue="Application.Mainclass" />
+        <item itemvalue="Application.Bike7" />
+        <item itemvalue="Application.Run01" />
       </list>
     </recent_temporary>
   </component>
@@ -161,5 +159,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
