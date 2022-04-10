@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L16_InstanceInitializerBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/L17_StaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L03_ExceptionHandling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +62,26 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.staticBlock">
+  <component name="RunManager" selected="Application.Exception">
     <configuration name="Bike7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.Bike7" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="a02Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.Exception" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.trycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.Run01" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="staticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.staticBlock" />
       <module name="winterjava" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exception" />
         <item itemvalue="Application.staticBlock" />
         <item itemvalue="Application.L17_StaticBlock" />
         <item itemvalue="Application.Mainclass" />
         <item itemvalue="Application.Bike7" />
-        <item itemvalue="Application.Run01" />
       </list>
     </recent_temporary>
   </component>
@@ -159,16 +159,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a02Review/L14_SuperKeyWord.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
