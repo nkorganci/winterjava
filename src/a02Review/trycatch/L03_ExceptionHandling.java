@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class L03_ExceptionHandling {
 }
 
-class Exception{
+class Exception extends Throwable {
     public static void main(String[] args) {
         Scanner scan =  new Scanner(System.in);
 
@@ -22,7 +22,7 @@ class Exception{
 
         }
             }
-
-
 }
+
+
 

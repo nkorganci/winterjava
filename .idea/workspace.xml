@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L04_Throw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L05_ResolveInCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L06_MultipleTryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L07_NestedTryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L08_Finally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Exception.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L03_ExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L03_ExceptionHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/MyCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L03_ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L03_ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +69,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.Exception" />
+  <component name="RunManager" selected="Application.TestFinallyBlock2">
+    <configuration name="L08_Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.L08_Finally" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -76,34 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L17_StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L17_StaticBlock" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mainclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.Mainclass" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.Solution" />
+    <configuration name="MultipleCatchBlock4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.MultipleCatchBlock4" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +96,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.staticBlock" />
+    <configuration name="Nested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.Nested" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedTryBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.NestedTryBlock2" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFinallyBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TestFinallyBlock2" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.trycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Exception" />
-        <item itemvalue="Application.staticBlock" />
-        <item itemvalue="Application.L17_StaticBlock" />
-        <item itemvalue="Application.Mainclass" />
+        <item itemvalue="Application.TestFinallyBlock2" />
+        <item itemvalue="Application.L08_Finally" />
+        <item itemvalue="Application.NestedTryBlock2" />
+        <item itemvalue="Application.Nested" />
+        <item itemvalue="Application.MultipleCatchBlock4" />
       </list>
     </recent_temporary>
   </component>
