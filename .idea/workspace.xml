@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L10_FinalFinallyFinalize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L03_ExceptionHandling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Throw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/Throw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L03_ExceptionHandling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L09_Throw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L09_Throw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L10_FinalFinallyFinalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L10_FinalFinallyFinalize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.U">
+  <component name="RunManager" selected="Application.TT">
     <configuration name="L08_Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.L08_Finally" />
       <module name="winterjava" />
@@ -79,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedTryBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.NestedTryBlock2" />
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.T" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.T" />
+    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TT" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TT" />
         <item itemvalue="Application.U" />
         <item itemvalue="Application.T" />
         <item itemvalue="Application.TestFinallyBlock2" />
         <item itemvalue="Application.L08_Finally" />
-        <item itemvalue="Application.NestedTryBlock2" />
       </list>
     </recent_temporary>
   </component>
