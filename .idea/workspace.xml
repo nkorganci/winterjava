@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/string/ToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/stringbuffer/L01_Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L11_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/collections1/Map1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/collections1/PriorityQueue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/collections1/Queue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread1/Runnable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/thread1/ThreadInitial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +64,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToString1">
-    <configuration name="L01_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.stringbuffer.L01_Methods" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread1.Counter" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.stringbuffer.*" />
+          <option name="PATTERN" value="a02Review.thread1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TT" />
+    <configuration name="Map1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.collections1.Map1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="PATTERN" value="a02Review.collections1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.string.ToString" />
+    <configuration name="PriorityQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.collections1.PriorityQueue1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.string.*" />
+          <option name="PATTERN" value="a02Review.collections1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.string.ToString1" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread1.Test" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.string.*" />
+          <option name="PATTERN" value="a02Review.thread1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="U" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.U" />
+    <configuration name="ThreadInitial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.thread1.ThreadInitial" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.trycatch.*" />
+          <option name="PATTERN" value="a02Review.thread1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToString1" />
-        <item itemvalue="Application.ToString" />
-        <item itemvalue="Application.L01_Methods" />
-        <item itemvalue="Application.TT" />
-        <item itemvalue="Application.U" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ThreadInitial" />
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="Application.Map1" />
+        <item itemvalue="Application.PriorityQueue1" />
       </list>
     </recent_temporary>
   </component>
