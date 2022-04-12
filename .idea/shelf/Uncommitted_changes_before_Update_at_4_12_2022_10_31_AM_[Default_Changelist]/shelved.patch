@@ -1,0 +1,361 @@
+Index: src/a02Review/trycatch/L02_HandlingException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package a02Review.trycatch;\r\n\r\nimport day28exceptions_41.GarbageCollector;\r\n\r\npublic class L02_HandlingException {\r\n    public static void main(String[] args) {\r\n\r\ntry {\r\n    System.out.println(2/0);}\r\ncatch (ArithmeticException e){\r\n}\r\nfinally {\r\n    System.out.println(\"Hello\");\r\n}\r\n        System.out.println(\"after final...\");\r\n            }\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/trycatch/L02_HandlingException.java b/src/a02Review/trycatch/L02_HandlingException.java
+--- a/src/a02Review/trycatch/L02_HandlingException.java	(revision 64a7d4c73beb72af434532c285d2a953d49a576b)
++++ b/src/a02Review/trycatch/L02_HandlingException.java	(date 1649686004212)
+@@ -2,17 +2,24 @@
+ 
+ import day28exceptions_41.GarbageCollector;
+ 
++import java.io.File;
++import java.io.FileNotFoundException;
++import java.io.PrintWriter;
++
+ public class L02_HandlingException {
+     public static void main(String[] args) {
+ 
+-try {
+-    System.out.println(2/0);}
+-catch (ArithmeticException e){
+-}
+-finally {
+-    System.out.println("Hello");
+-}
+-        System.out.println("after final...");
++
++      try{
++          int a[] = new int[4];
++          a[8]=8;
++          System.out.println(2/0);
++
++      }catch (Exception e){
++          System.out.println(e);
++          System.out.println("Arithmetic ");
++      }
++
+             }
+     }
+ 
+Index: src/a02Review/trycatch/A.java
+===================================================================
+diff --git a/src/a02Review/trycatch/A.java b/src/a02Review/trycatch/A.java
+deleted file mode 100644
+--- a/src/a02Review/trycatch/A.java	(revision 64a7d4c73beb72af434532c285d2a953d49a576b)
++++ /dev/null	(revision 64a7d4c73beb72af434532c285d2a953d49a576b)
+@@ -1,26 +0,0 @@
+-package a02Review.trycatch;
+-
+-public class A {
+-    public static void main(String[] args) {
+-
+-    }
+-}
+-
+-interface B{
+-   void read();
+-   default void jump(){
+-
+-   }
+-}
+-
+-abstract class C{
+-    abstract void run();
+-    void jump(){
+-        System.out.println("jump");
+-    }
+-}
+-class D{
+-     void write(){
+-         System.out.println("body");
+-     }
+-}
+Index: src/a02Review/collections/LinkedHashSet1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/collections/LinkedHashSet1.java b/src/a02Review/collections/LinkedHashSet1.java
+new file mode 100644
+--- /dev/null	(date 1649693240666)
++++ b/src/a02Review/collections/LinkedHashSet1.java	(date 1649693240666)
+@@ -0,0 +1,15 @@
++package a02Review.collections;
++
++import java.util.LinkedHashSet;
++
++public class LinkedHashSet1 {
++    public static void main(String[] args) {
++        LinkedHashSet<Integer> l = new LinkedHashSet();
++        l.add(2);
++        l.add(3);
++        l.add(2);
++        for(Integer a: l){
++            System.out.println(a);
++        }
++    }
++}
+Index: src/a02Review/collections/Set.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/collections/Set.java b/src/a02Review/collections/Set.java
+new file mode 100644
+--- /dev/null	(date 1649688000988)
++++ b/src/a02Review/collections/Set.java	(date 1649688000988)
+@@ -0,0 +1,58 @@
++package a02Review.collections;
++
++import java.util.HashSet;
++import java.util.Iterator;
++
++public class Set {
++    public static void main(String[] args) {
++        HashSet<Integer> hSet = new HashSet<>();
++        hSet.add(1);
++        hSet.add(22);
++        hSet.add(1);
++
++        // 1st Way for loop
++        for(Integer a:hSet){
++            System.out.println(a);
++        }
++
++        // 2nd Lambda for each
++        hSet.forEach(System.out::println);
++
++        // 3rd iterator method
++        Iterator <Integer> it = hSet.iterator();
++        while (it.hasNext()){
++            System.out.println(it.next());
++        }
++
++    }
++
++}
++
++class Set1 {
++    int id;
++    String name, author;
++    int quantity;
++
++    public Set1(int id, String name, String author, int quantity) {
++        this.id = id;
++        this.name = name;
++        this.author = author;
++        this.quantity = quantity;
++    }
++
++    public static void main(String[] args) {
++        Set1 obj1 = new Set1(1, "hi", "bye", 3);
++        Set1 obj2 = new Set1(2, "sdfi", "bye", 23);
++
++        HashSet<Set1> hSet = new HashSet<Set1>();
++        hSet.add(obj1);
++        hSet.add(obj2);
++
++        for(Set1 a: hSet){
++            System.out.println(a.author + " "+ a.id);
++        }
++
++
++
++    }
++}
+\ No newline at end of file
+Index: src/a02Review/collections/TreeSet1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/a02Review/collections/TreeSet1.java b/src/a02Review/collections/TreeSet1.java
+new file mode 100644
+--- /dev/null	(date 1649694535467)
++++ b/src/a02Review/collections/TreeSet1.java	(date 1649694535467)
+@@ -0,0 +1,36 @@
++package a02Review.collections;
++
++import jdk.swing.interop.SwingInterOpUtils;
++
++import java.util.Iterator;
++import java.util.TreeSet;
++
++public class TreeSet1 {
++    public static void main(String[] args) {
++        TreeSet<Integer> t = new TreeSet();
++        t.add(2);
++        t.add(3);
++        t.add(1);
++
++        for(Integer a: t){
++            System.out.println(a);
++        }
++
++       // Iterator it = t.iterator();
++        Iterator it = t.descendingIterator();
++        while (it.hasNext()){
++            System.out.println(it.next());
++        }
++    }
++}
++
++class TreeSetExample{
++    public static void main(String[] args) {
++        TreeSet<String> ts = new TreeSet<>();
++        ts.add("A");
++        ts.add("C");
++        ts.add("B");
++        System.out.println("initial set "+ ts);
++        System.out.println(" HeadSet " + ts.headSet("B"));
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/a02Review/string/ToString.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/a02Review/stringbuffer/L01_Methods.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/a02Review/trycatch/L11_Examples.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"23PyCg0wmHN5s41zN8KtMMJr957\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/a02Review\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.IDE.editor.colors.Color Scheme Font\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"a02java\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\NKorganci\\IdeaProjects\\winterjava\\src\\a02Review\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ToString1\">\r\n    <configuration name=\"L01_Methods\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.stringbuffer.L01_Methods\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.stringbuffer.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TT\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.trycatch.TT\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.trycatch.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ToString\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.string.ToString\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.string.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ToString1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.string.ToString1\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.string.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"U\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"a02Review.trycatch.U\" />\r\n      <module name=\"winterjava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"a02Review.trycatch.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ToString1\" />\r\n        <item itemvalue=\"Application.ToString\" />\r\n        <item itemvalue=\"Application.L01_Methods\" />\r\n        <item itemvalue=\"Application.TT\" />\r\n        <item itemvalue=\"Application.U\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8048d139-27a7-40ea-ad9d-33b067215e40\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1641649890491</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1641649890491</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 64a7d4c73beb72af434532c285d2a953d49a576b)
++++ b/.idea/workspace.xml	(date 1649694480769)
+@@ -5,10 +5,14 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/a02Review/string/ToString.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/a02Review/stringbuffer/L01_Methods.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L11_Examples.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/a02Review/collections/LinkedHashSet1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/a02Review/collections/Set.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/a02Review/collections/TreeSet1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_5_09_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_5_09_PM__Default_Changelist_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/A.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -18,6 +22,7 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -33,6 +38,9 @@
+       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+     </file-type-list>
+   </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/ArithmeticException.java" root0="SKIP_INSPECTION" />
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -62,13 +70,13 @@
+       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ToString1">
+-    <configuration name="L01_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.stringbuffer.L01_Methods" />
++  <component name="RunManager" selected="Application.TreeSetExample">
++    <configuration name="LinkedHashSet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.collections.LinkedHashSet1" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="a02Review.stringbuffer.*" />
++          <option name="PATTERN" value="a02Review.collections.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -76,12 +84,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.TT" />
++    <configuration name="Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.collections.Set" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="a02Review.trycatch.*" />
++          <option name="PATTERN" value="a02Review.collections.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -89,12 +97,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.string.ToString" />
++    <configuration name="Set1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.collections.Set1" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="a02Review.string.*" />
++          <option name="PATTERN" value="a02Review.collections.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -102,12 +110,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ToString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.string.ToString1" />
++    <configuration name="TreeSet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.collections.TreeSet1" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="a02Review.string.*" />
++          <option name="PATTERN" value="a02Review.collections.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -115,12 +123,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="U" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="a02Review.trycatch.U" />
++    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="a02Review.collections.TreeSetExample" />
+       <module name="winterjava" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="a02Review.trycatch.*" />
++          <option name="PATTERN" value="a02Review.collections.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -130,11 +138,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.ToString1" />
+-        <item itemvalue="Application.ToString" />
+-        <item itemvalue="Application.L01_Methods" />
+-        <item itemvalue="Application.TT" />
+-        <item itemvalue="Application.U" />
++        <item itemvalue="Application.TreeSetExample" />
++        <item itemvalue="Application.TreeSet1" />
++        <item itemvalue="Application.LinkedHashSet1" />
++        <item itemvalue="Application.Set1" />
++        <item itemvalue="Application.Set" />
+       </list>
+     </recent_temporary>
+   </component>
