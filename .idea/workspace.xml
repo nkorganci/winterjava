@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/codesignal/Centry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/StringClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/string/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/string/PassByValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a02Review/stringc/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a03springboot/DependencyInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a03springboot/Serializable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_5_09_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_5_09_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/collections/LinkedHashSet1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/collections/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/collections/Set1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/collections/TreeSet1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/collections/TreeSetExample.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/a02Review" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/fsp2/firstspring" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,13 +66,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PassByValue">
-    <configuration name="Examples55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.Examples55" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a03springboot.B" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.*" />
+          <option name="PATTERN" value="a03springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.codesignal.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a03springboot.Test" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.codesignal.*" />
+          <option name="PATTERN" value="a03springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.B" />
         <item itemvalue="Application.PassByValue" />
         <item itemvalue="Application.Hash" />
         <item itemvalue="Application.Immutable" />
-        <item itemvalue="Application.Examples55" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
