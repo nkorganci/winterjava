@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a02Review/stringc/ToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/stringc/CallByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/stringc/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a02Review/stringc/SwapNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +66,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToString">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a03springboot.B" />
+  <component name="RunManager" selected="Application.Scope">
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.stringc.CallByValue" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a03springboot.*" />
+          <option name="PATTERN" value="a02Review.stringc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.string.Hash" />
+    <configuration name="Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.stringc.Scope" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.string.*" />
+          <option name="PATTERN" value="a02Review.stringc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.string.PassByValue" />
+    <configuration name="SwapNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.stringc.SwapNumbers" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.string.*" />
+          <option name="PATTERN" value="a02Review.stringc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scope" />
+        <item itemvalue="Application.SwapNumbers" />
+        <item itemvalue="Application.CallByValue" />
         <item itemvalue="Application.ToString" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.PassByValue" />
-        <item itemvalue="Application.Hash" />
       </list>
     </recent_temporary>
   </component>
