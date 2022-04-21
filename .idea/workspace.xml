@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Garage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_14_2022_7_48_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Set1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Set1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04geeksforgeeks/Set1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Set1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +68,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.C" />
+  <component name="RunManager" selected="Application.Exam">
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Exam" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -96,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.stringc.Scope" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.stringc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Set1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Set1" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Main1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.stringc.SwapNumbers" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Main2" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.stringc.*" />
+          <option name="PATTERN" value="a04geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Student" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a04geeksforgeeks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.C" />
-        <item itemvalue="Application.Set1" />
-        <item itemvalue="Application.Scope" />
-        <item itemvalue="Application.SwapNumbers" />
       </list>
     </recent_temporary>
   </component>
