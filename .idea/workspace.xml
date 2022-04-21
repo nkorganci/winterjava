@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_14_2022_7_48_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04geeksforgeeks/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Exam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

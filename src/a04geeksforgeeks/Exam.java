@@ -2,21 +2,35 @@ package a04geeksforgeeks;
 
 public class Exam {
 
-    int b =3;
-
-    Exam(int b){
-        this.b= b;
-    }
-    int c(){
-        return b;
-    }
-
-    public static void main(String[] args) {
-
-        Exam obj = new Exam(6);
-        System.out.println(obj.c());
-        System.out.println(obj.b);
-
-    }
-
 }
+
+class First
+{
+    int i = 10;
+
+    public First(int j)
+    {
+        System.out.println(i);
+        this.i = j * 10;
+    }
+}
+
+class Second extends First
+{
+    public Second(int j)
+    {
+        super(j);
+        System.out.println(i);
+        this.i = j * 20;
+    }
+}
+
+ class MainClass
+{
+    public static void main(String[] args)
+    {
+        Second n = new Second(20);
+        System.out.println(n.i);
+    }
+}
+
