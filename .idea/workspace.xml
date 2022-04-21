@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Garage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/DD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Set1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Set1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a04geeksforgeeks/Set1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04geeksforgeeks/Set1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
