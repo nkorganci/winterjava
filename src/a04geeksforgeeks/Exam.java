@@ -1,27 +1,35 @@
 package a04geeksforgeeks;
 
-public class Exam extends Thread{
+public class Exam{
 }
 
-class Alpha
+class Writer
 {
-    public String type = "a ";
-    public Alpha() {  System.out.print("alpha "); }
-}
-
- class Beta extends Alpha
-{
-    public Beta()  {  System.out.print("beta ");  }
-
-    void go()
+    public  static void write()
     {
-        type = "b ";
-        System.out.print(this.type + super.type);
+        System.out.println("Writing...");
+    }
+}
+class Author extends Writer
+{
+    public  static void write()
+    {
+        System.out.println("Writing book");
+    }
+}
+
+class Programmer extends Author
+{
+    public  static void write()
+    {
+        System.out.println("Writing code");
     }
 
     public static void main(String[] args)
     {
-        new Beta().go();
+        Writer a = new Programmer();
+        a.write();
     }
 }
+
 
