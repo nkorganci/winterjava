@@ -65,9 +65,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exam">
-    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Exam" />
+  <component name="RunManager" selected="Application.Beta">
+    <configuration name="Beta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Beta" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Main" />
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Exam" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.Student" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04geeksforgeeks.MainClass" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beta" />
         <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

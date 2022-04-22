@@ -1,36 +1,27 @@
 package a04geeksforgeeks;
 
-public class Exam {
-
+public class Exam extends Thread{
 }
 
-class First
+class Alpha
 {
-    int i = 10;
+    public String type = "a ";
+    public Alpha() {  System.out.print("alpha "); }
+}
 
-    public First(int j)
+ class Beta extends Alpha
+{
+    public Beta()  {  System.out.print("beta ");  }
+
+    void go()
     {
-        System.out.println(i);
-        this.i = j * 10;
+        type = "b ";
+        System.out.print(this.type + super.type);
     }
-}
 
-class Second extends First
-{
-    public Second(int j)
-    {
-        super(j);
-        System.out.println(i);
-        this.i = j * 20;
-    }
-}
-
- class MainClass
-{
     public static void main(String[] args)
     {
-        Second n = new Second(20);
-        System.out.println(n.i);
+        new Beta().go();
     }
 }
 
