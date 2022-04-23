@@ -1,22 +1,24 @@
 package a02Review.general;
 
 public class First {
-    public void myMethod(){
-        System.out.println("Method");
+int a = 1;
+static int b = 2;
+    First(){
+        a =11;
+        b=22;
+        System.out.println(a+ " " + b);
     }
-    {
-        System.out.println("Instance Block");
-    }
-    public First(){
-        System.out.println("Constructor");
-    }
-    static {
-        System.out.println("Static block");
+
+    public void run(){
+        a=938;
     }
 
     public static void main(String[] args) {
-
         First obj = new First();
-        obj.myMethod();
+        System.out.println(obj.a + " " + obj.b);
+
+        First obj1 = new First();
+        System.out.println(obj.a + " " + obj.b);
+
     }
 }
