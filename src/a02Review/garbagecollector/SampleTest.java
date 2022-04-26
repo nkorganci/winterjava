@@ -3,20 +3,37 @@ package a02Review.garbagecollector;
 public class SampleTest {
 }
 
-class Test{
-    public static void main(String[] args) throws InterruptedException {
 
-        String str = new String("Hello");
-        str = null;
+ class Base
+{
+    private int data;
 
-        System.gc();
-
-        Thread.sleep(10000);
-        System.out.println("end of main");
+    public Base()
+    {
+        data = 5;
     }
 
-//    @Override
-//    protected void finalize(){
-//        System.out.println("finalize method called");
-//    }
+    public int getData()
+    {
+        return this.data;
+    }
+}
+
+class Derived extends Base
+{
+    private int data;
+    public Derived()
+    {
+        data = 6;
+    }
+    public int getData()
+    {
+        return data;
+    }
+
+    public static void main(String[] args)
+    {
+        Derived myData = new Derived();
+        System.out.println(myData.getData());
+    }
 }
