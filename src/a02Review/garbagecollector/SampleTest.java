@@ -1,18 +1,25 @@
 package a02Review.garbagecollector;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.io.IOException;
+
 public class SampleTest {
 }
 
-
 class A{
-    public static void main(String[] args) {
+    public  void run(){
+        System.out.println("running in A");
+    }
+}
 
-        int a = 2;
-        try {
-            System.out.println(a/0);
-            throw  new ArithmeticException("no zeor");
-        }catch (IndexOutOfBoundsException e){
-            System.out.println(e);;
-        }
+class B extends A{
+    public  void run(){
+        System.out.println("Running in B");
+    }
+
+    public static void main(String[] args) {
+        B obj = new B();
+        obj.run();
     }
 }
