@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/a02Review/collections1/Sample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/SampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/garbagecollector/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/garbagecollector/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/garbagecollector/SampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/garbagecollector/SampleTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.Sample">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a02Review.garbagecollector.A" />
       <module name="winterjava" />
@@ -93,25 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.general.First" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.collections1.Sample" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.general.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gfg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.general.Gfg" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a02Review.general.*" />
+          <option name="PATTERN" value="a02Review.collections1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.garbagecollector.stack" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a02Review.garbagecollector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.stack" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Derived" />
-        <item itemvalue="Application.Gfg" />
-        <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
   </component>
