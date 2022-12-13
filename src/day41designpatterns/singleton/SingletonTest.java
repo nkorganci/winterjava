@@ -1,4 +1,4 @@
-package day41designpatterns;
+package day41designpatterns.singleton;
 
 public class SingletonTest {
     public static void main(String[] args) {
