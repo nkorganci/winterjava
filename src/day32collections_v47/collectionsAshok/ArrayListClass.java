@@ -1,5 +1,7 @@
 package day32collections_v47.collectionsAshok;
 
+import a02Review.trycatch.A;
+
 import java.util.ArrayList;
 
 public class ArrayListClass {
@@ -17,6 +19,12 @@ public class ArrayListClass {
         System.out.println(obj1);
         obj1.add(0,22);
         System.out.println(obj1);
+
+        //Data type
+        ArrayList<Integer> obj2 = new ArrayList<>();
+        obj2.add(2);
+//        obj2.add("hi");
+        System.out.println(obj2);
 
 
 
