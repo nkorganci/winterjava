@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 19 hackerrank">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/hackerrank/JavaCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/PojoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/ToStringClass.java" afterDir="false" />
+    <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/leetcode/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArraysCodingBat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/WhyCollectionsArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArrayListClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArraysClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ListClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +78,7 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToSTringTest">
-    <configuration name="CompileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.CompileTest" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WhyCollectionsArrays">
     <configuration name="JavaCompiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a01codingpractice.hackerrank.JavaCompiler" />
       <module name="winterjava" />
@@ -141,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhyCollectionsArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.WhyCollectionsArrays" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhyCollectionsArrays" />
         <item itemvalue="Application.ToSTringTest" />
         <item itemvalue="Application.ToSTringTest (1)" />
         <item itemvalue="Application.SpringBeanVsJavaBean" />
         <item itemvalue="Application.JavaCompiler" />
-        <item itemvalue="Application.CompileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671506372155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12 20">
+      <created>1671548998270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671548998270</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +218,7 @@
     <MESSAGE value="12 13 2022" />
     <MESSAGE value="12 18 2022" />
     <MESSAGE value="12 19 hackerrank" />
-    <option name="LAST_COMMIT_MESSAGE" value="12 19 hackerrank" />
+    <MESSAGE value="12 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 20" />
   </component>
 </project>
