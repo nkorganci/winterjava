@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/leetcode/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArraysCodingBat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/WhyCollectionsArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A02_Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A03_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A04_CollectionsCommonMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A05_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A06_Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A07_Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArrayListClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArraysClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ListClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/WhyDoWeNeedCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/ArraysCodingBat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/WhyCollectionsArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A01_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +81,13 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhyCollectionsArrays">
-    <configuration name="JavaCompiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.hackerrank.JavaCompiler" />
+  <component name="RunManager" selected="Application.A07_Stack">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.hackerrank.*" />
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBeanVsJavaBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.SpringBeanVsJavaBean" />
+    <configuration name="A03_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A03_ArrayList" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.*" />
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToSTringTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.ToSTringTest" />
+    <configuration name="A05_LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A05_LinkedList" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.*" />
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToSTringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.ToSTringTest" />
+    <configuration name="A06_Vector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A06_Vector" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.*" />
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhyCollectionsArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.WhyCollectionsArrays" />
+    <configuration name="A07_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A07_Stack" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WhyCollectionsArrays" />
-        <item itemvalue="Application.ToSTringTest" />
-        <item itemvalue="Application.ToSTringTest (1)" />
-        <item itemvalue="Application.SpringBeanVsJavaBean" />
-        <item itemvalue="Application.JavaCompiler" />
+        <item itemvalue="Application.A07_Stack" />
+        <item itemvalue="Application.A06_Vector" />
+        <item itemvalue="Application.A05_LinkedList" />
+        <item itemvalue="Application.A03_ArrayList" />
+        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
