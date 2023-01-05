@@ -4,33 +4,31 @@ import java.util.*;
 
 public class A11_HashMap {
     public static void main(String[] args) {
-        Map<Integer,String> hashMap= new HashMap<>();
-        hashMap.put(1,"Adam1");
-        hashMap.put(2,"Adam2");
-        hashMap.put(3,"Adam3");
-        hashMap.put(3,"Adam4");
 
-        System.out.println(hashMap.size());
-        System.out.println(hashMap.containsKey(2));
-        System.out.println(hashMap.containsKey(4));
-        System.out.println(hashMap);
+        Map<Integer,String> map = new HashMap<>();
+        map.put(1,"A1");
+        map.put(2,"A2");
+        map.put(3,"A3");
 
-        //Print value
-        System.out.println("Key " + hashMap.get(1));
+        //Print map
+        System.out.println(map); // {1=A1, 2=A2, 3=A3}, uses curly braces
 
+        //Get()
+        System.out.println(map.get(1)); // enter Key, return value as a String
+        String value1 = map.get(1);
 
-        //Get only Keys, keySet return Set
-      Set<Integer> keys= hashMap.keySet();
-      for(Integer k:keys){
-          System.out.println(k);
-          System.out.println(hashMap.get(k));
-      }
+        //Remove()
+       String remove1= map.remove(1);
+       boolean remove2 = map.remove(1,"A1");
 
-      // map.values return collections
-        Collection<String> values= hashMap.values();
+       //ContainsKey()
+        boolean contain1 = map.containsKey(1);
 
+        //keySet()
+        System.out.println(map.keySet());//[2, 3]
+       Set<Integer> key1= map.keySet();
 
-      // map.entrySet() --> to get key and values
-       Set<Map.Entry<Integer,String>> entrySet= hashMap.entrySet();
+        //entryset()
+        System.out.println(map.entrySet());
     }
 }

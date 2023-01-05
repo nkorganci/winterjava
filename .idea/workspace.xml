@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A08_Hashset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A09_LinkedInSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A10_TreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A11_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/AS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A12_TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A13_PriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A11_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A11_HashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A11_HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A11_HashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,35 +77,9 @@
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A11_HashMap">
-    <configuration name="A07_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A07_Stack" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.A13_PriorityQueue">
     <configuration name="A08_Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A08_Hashset" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A09_LinkedInSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A09_LinkedInSet" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +117,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A12_TreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A12_TreeMap" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A13_PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A13_PriorityQueue" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A13_PriorityQueue" />
+        <item itemvalue="Application.A12_TreeMap" />
         <item itemvalue="Application.A11_HashMap" />
         <item itemvalue="Application.A08_Hashset" />
         <item itemvalue="Application.A10_TreeSet" />
-        <item itemvalue="Application.A09_LinkedInSet" />
-        <item itemvalue="Application.A07_Stack" />
       </list>
     </recent_temporary>
   </component>
