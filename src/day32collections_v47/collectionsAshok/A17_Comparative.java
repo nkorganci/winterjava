@@ -19,7 +19,31 @@ public class A17_Comparative {
         }
 
         // Using comparative
-        Collections.sort(emps,new EmpIdComparator());
+        Collections.sort(emps,new EmpIdComparator());//Sort according to id
+        Collections.sort(emps,new EmpNameComparator());//Sort according to name
+        Collections.sort(emps, new Comparator<Employee>() {  // We can write the comparative indide the class too
+            @Override
+            public int compare(Employee o1, Employee o2) {
+                return o1.name.compareTo(o2.name);
+            }
+        });
+
+        // forward and reverse order
+//        Collections.sort((emps, new Comparator<Employee>() {
+//            @Override
+//            public int compare(Employee o1, Employee o2) {
+//
+//                if (o1.id>o2.id){
+//                    return 1;  // By changing these values we can reverse the order
+//                }else if(o1.id<o1.id){
+//                    return -1;
+//                }else {
+//                    return 0;
+//                }
+//            }
+//        });
+
+
         for(Employee e: emps){
             System.out.println("After comparator: "+ e);
         }
@@ -52,5 +76,13 @@ class EmpIdComparator implements Comparator<Employee> {
     @Override
     public int compare(Employee o1, Employee o2) {
         return o1.id-o2.id;
+    }
+}
+
+class EmpNameComparator implements Comparator<Employee>{
+
+    @Override
+    public int compare(Employee o1, Employee o2) {
+        return o1.name.compareTo(o2.name);
     }
 }

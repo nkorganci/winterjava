@@ -2,77 +2,41 @@ package day32collections_v47.collectionsAshok;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
 
-public class A16_Comparable {
-    public static void main(String[] args) {
+public class A16_Comparable implements Comparable<A16_Comparable> {
 
-        List<Student1> al = new ArrayList<>();
-        al.add(new Student1(1,"c",2));
-        al.add(new Student1(3,"b",4));
-        al.add(new Student1(2,"b",4));
-        al.add(new Student1(0,"f",4));
+        int id;
+        String name;
 
-        System.out.println(al);// [Student1{id=1, name='a', rank=2}, Student1{id=3, name='b', rank=4}, Student1{id=2, name='b', rank=4}, Student1{id=0, name='b', rank=4}]
-        Collections.sort(al); // Student1{id=0, name='b', rank=4}
-
-        for(Student1 t: al){
-            System.out.println(t);
+        public A16_Comparable(int id, String name) {
+                this.id = id;
+                this.name = name;
         }
 
-    }
+        @Override
+        public String toString() {
+                return "A16_Comparable{" +
+                        "id=" + id +
+                        ", name='" + name + '\'' +
+                        '}';
+        }
+
+        @Override
+        public int compareTo(A16_Comparable o) {
+                return this.id-o.id; // this refers to class id which is necessary
+        }
 }
 
-class Student1 implements Comparable<Student1>{
-    int id;
-    String name;
-    int rank;
+class A{
+        public static void main(String[] args) {
+                ArrayList<A16_Comparable> list = new ArrayList<>();
+                list.add(new A16_Comparable(2,"hi"));
+                list.add(new A16_Comparable(0,"hi"));
+                list.add(new A16_Comparable(3,"hi"));
 
-    public Student1(int id, String name, int rank){
-            this.id=id;
-            this.name=name;
-            this.rank=rank;
-    }
+                Collections.sort(list);
+                System.out.println(list);
 
-    @Override
-    public String toString() {
-        return "Student1{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", rank=" + rank +
-                '}';
-    }
 
-    @Override
-    public int compareTo(Student1 o) {
-//        return this.id-o.id; // It will compare according to id
-        return this.name.compareTo(o.name);// We can compare relative to any of the field
-    }
-}
-
-class Student2 implements Comparator<Student2> {
-    int id;
-    String name;
-    int rank;
-
-    public Student2(int id, String name, int rank){
-        this.id=id;
-        this.name=name;
-        this.rank=rank;
-    }
-
-    @Override
-    public String toString() {
-        return "Student1{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", rank=" + rank +
-                '}';
-    }
-
-    @Override
-    public int compare(Student2 o1, Student2 o2) {
-        return o1.id-o2.id;
-    }
+        }
 }
