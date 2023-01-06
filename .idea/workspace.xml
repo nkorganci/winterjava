@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
+      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A18_FailFastFailSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A16_Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A16_Comparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/Student1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A16_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A16_Comparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A17_Comparative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A17_Comparative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A17_Comparative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A17_Comparative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/EmpIdComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/EmpIdComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/Employee.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,35 +79,9 @@
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.FailSafe">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A14_PropertiesClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A14_PropertiesClass" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A15_Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A15_Collections" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A18_FailFastFailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.A18_FailFastFailSafe" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day32collections_v47.collectionsAshok.FailSafe" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day32collections_v47.collectionsAshok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FailSafe" />
+        <item itemvalue="Application.A18_FailFastFailSafe" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.A16_Comparable" />
         <item itemvalue="Application.A17_Comparative" />
-        <item itemvalue="Application.A15_Collections" />
-        <item itemvalue="Application.A14_PropertiesClass" />
       </list>
     </recent_temporary>
   </component>
