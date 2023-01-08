@@ -1,4 +1,4 @@
-package a01codingpractice;
+package a01codingpractice.chase;
 
 public class  SelfDescriptiveNumber{
 
