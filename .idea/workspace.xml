@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/SelfDescriptiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a03springboot/DependencyInjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a03springboot/Serializable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,5 +218,26 @@
     <MESSAGE value="12 19 hackerrank" />
     <MESSAGE value="12 20" />
     <option name="LAST_COMMIT_MESSAGE" value="12 20" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
