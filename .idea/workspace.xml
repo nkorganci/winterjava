@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/interview/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelfDescriptiveNumber1">
+  <component name="RunManager" selected="Application.Practice">
     <configuration name="Employee (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day36lambda.lambdaaskhok.java8stream.Employee" />
       <module name="winterjava" />
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.lambdaaskhok.java8stream.Employee" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.interview.Practice" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.lambdaaskhok.java8stream.*" />
+          <option name="PATTERN" value="a01codingpractice.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.SelfDescriptiveNumber1" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.Employee (2)" />
         <item itemvalue="Application.Employee (1)" />
-        <item itemvalue="Application.Employee" />
       </list>
     </recent_temporary>
   </component>
