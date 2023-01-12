@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day15arrays_V20/CompareArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day15arrays_V20/ObjectMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day32collections_v47/interview/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/UglyNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/winterjava/day15arrays_V20/ObjectMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/UglyNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/interview/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/interview/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/interview/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/interview/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/SelfDescriptiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/SelfDescriptiveNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareArrays">
+  <component name="RunManager" selected="Application.UglyNumbers">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day32collections_v47.interview.A" />
       <module name="winterjava" />
@@ -133,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelfDescriptiveNumber1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.SelfDescriptiveNumber1" />
+    <configuration name="UglyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.UglyNumbers" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UglyNumbers" />
         <item itemvalue="Application.CompareArrays" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.SelfDescriptiveNumber1" />
       </list>
     </recent_temporary>
   </component>
