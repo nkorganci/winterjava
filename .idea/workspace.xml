@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/ArraysQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/AdditionOfTwoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/DublicateNumPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/SortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/UglyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/UglyNumbersFactors235.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +81,9 @@
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraysQuestions">
-    <configuration name="ArrayPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.ArrayPrint" />
+  <component name="RunManager" selected="Application.FactorsOf3And5">
+    <configuration name="AdditionOfTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42.datastructure.AdditionOfTwoArray" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -103,21 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CamelCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.CamelCase" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a01codingpractice.chase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeComplexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.TimeComplexity" />
+    <configuration name="DublicateNumPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42.datastructure.DublicateNumPrint" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UglyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.UglyNumbers" />
+    <configuration name="FactorsOf3And5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.FactorsOf3And5" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42.datastructure.SortArray" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day42.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactorsOf3And5" />
+        <item itemvalue="Application.DublicateNumPrint" />
+        <item itemvalue="Application.SortArray" />
+        <item itemvalue="Application.AdditionOfTwoArray" />
         <item itemvalue="Application.ArraysQuestions" />
-        <item itemvalue="Application.ArrayPrint" />
-        <item itemvalue="Application.TimeComplexity" />
-        <item itemvalue="Application.CamelCase" />
-        <item itemvalue="Application.UglyNumbers" />
       </list>
     </recent_temporary>
   </component>

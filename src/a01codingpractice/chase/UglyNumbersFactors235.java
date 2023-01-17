@@ -1,6 +1,6 @@
 package a01codingpractice.chase;
 
-public class UglyNumbers {
+public class UglyNumbersFactors235 {
 
     public static void main(String[] args) {
         uglyNumbers(9);
