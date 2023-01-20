@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/AdditionOfTwoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/DublicateNumPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42/datastructure/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/arrays/RemoveEvenIntegersFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/FindMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/Swapping2Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/Pattern1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/UglyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/UglyNumbersFactors235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/FactorsOf3And5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/AdditionOfTwoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArrayPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/DublicateNumPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/RemoveEvenFromArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/SortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/TimeComplexity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/AdditionOfTwoArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/ArrayPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/ArraysQuestions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/DublicateNumPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/RemoveEvenFromArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/SortArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/TimeComplexity.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +97,13 @@
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FactorsOf3And5">
-    <configuration name="AdditionOfTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.AdditionOfTwoArray" />
+  <component name="RunManager" selected="Application.ReverseNumber">
+    <configuration name="FindMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.FindMinMax" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42.datastructure.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.ArraysQuestions" />
+    <configuration name="MissingNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.MissingNumberInArray" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42.datastructure.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DublicateNumPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.DublicateNumPrint" />
+    <configuration name="Pattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.pattern.Pattern1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42.datastructure.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorsOf3And5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.chase.FactorsOf3And5" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.general.ReverseNumber" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.chase.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42.datastructure.SortArray" />
+    <configuration name="Swapping2Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.general.Swapping2Numbers" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42.datastructure.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactorsOf3And5" />
-        <item itemvalue="Application.DublicateNumPrint" />
-        <item itemvalue="Application.SortArray" />
-        <item itemvalue="Application.AdditionOfTwoArray" />
-        <item itemvalue="Application.ArraysQuestions" />
+        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.Swapping2Numbers" />
+        <item itemvalue="Application.MissingNumberInArray" />
+        <item itemvalue="Application.FindMinMax" />
+        <item itemvalue="Application.Pattern1" />
       </list>
     </recent_temporary>
   </component>
