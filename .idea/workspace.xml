@@ -5,29 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/arrays/RemoveEvenIntegersFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/FindMinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/Swapping2Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/Pattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/SAMPLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SortingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/LeftTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/InfiniteTimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/FactorsOf3And5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/AdditionOfTwoArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArrayPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/ArraysQuestions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/DublicateNumPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/RemoveEvenFromArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/SortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day42/datastructure/TimeComplexity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/chase/FactorsOf3And5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/AdditionOfTwoArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/ArrayPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/ArraysQuestions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/DublicateNumPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/RemoveEvenFromArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/SortArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day42/datastructure/TimeComplexity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/MissingNumberInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/MissingNumberInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +83,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day41designpatterns.singleton.general" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNumber">
-    <configuration name="FindMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.FindMinMax" />
+  <component name="RunManager" selected="Application.JumpStatements">
+    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.FactorialNumber" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.MissingNumberInArray" />
+    <configuration name="InfiniteTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.InfiniteTimes" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.pattern.Pattern1" />
+    <configuration name="JumpStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.general.JumpStatements" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.pattern.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,7 +132,7 @@
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swapping2Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.general.Swapping2Numbers" />
+    <configuration name="SortingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.SortingArray" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpStatements" />
+        <item itemvalue="Application.FactorialNumber" />
+        <item itemvalue="Application.InfiniteTimes" />
+        <item itemvalue="Application.SortingArray" />
         <item itemvalue="Application.ReverseNumber" />
-        <item itemvalue="Application.Swapping2Numbers" />
-        <item itemvalue="Application.MissingNumberInArray" />
-        <item itemvalue="Application.FindMinMax" />
-        <item itemvalue="Application.Pattern1" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +247,41 @@
           <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
           <line>13</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SortingArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FactorialNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
