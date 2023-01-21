@@ -3,10 +3,14 @@ package day41designpatterns.singleton.recursion;
 public class FindSumOfNumbers {
     public static void main(String[] args) {
 
+        System.out.println(sumNum(123));
+
     }
 
     public static int sumNum(int a){
 
-        return a ? a%10+sumNum(a/10):0;
+        if(a==0 || a<0)
+            return 0;
+        return  a%10+sumNum(a/10);
     }
 }
