@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FibonacciNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/WhileLoopRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FindSumOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/MultiplicationOf2Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/NthFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/PrintReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/RecursionExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/SumOfTheNumAtoB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/SumOfTheNumFromMaxtoMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/general/JumpStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/general/JumpStatements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +85,9 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciNumbers">
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.FactorialNumber" />
+  <component name="RunManager" selected="Application.MultiplicationOf2Numbers">
+    <configuration name="MultiplicationOf2Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.MultiplicationOf2Numbers" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.FibonacciNumbers" />
+    <configuration name="PrintReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.PrintReverseOrder" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiniteTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.InfiniteTimes" />
+    <configuration name="RecursionExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.RecursionExamples" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.general.JumpStatements" />
+    <configuration name="SumOfTheNumAtoB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.SumOfTheNumAtoB" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.general.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoopRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.WhileLoopRecursion" />
+    <configuration name="SumOfTheNumFromMaxtoMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.SumOfTheNumFromMaxtoMin" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciNumbers" />
-        <item itemvalue="Application.WhileLoopRecursion" />
-        <item itemvalue="Application.JumpStatements" />
-        <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.InfiniteTimes" />
+        <item itemvalue="Application.MultiplicationOf2Numbers" />
+        <item itemvalue="Application.PrintReverseOrder" />
+        <item itemvalue="Application.SumOfTheNumFromMaxtoMin" />
+        <item itemvalue="Application.SumOfTheNumAtoB" />
+        <item itemvalue="Application.RecursionExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +285,31 @@
           <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/FibonacciNumbers.java</url>
           <line>17</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/RecursionExamples.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/PrintReverseOrder.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/PrintReverseOrder.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/PrintReverseOrder.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/PrintReverseOrder.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
