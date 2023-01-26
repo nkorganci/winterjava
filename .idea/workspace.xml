@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SecondBestInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SumOfDiagonals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/TreeNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,6 +325,91 @@
           <url>file://$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java</url>
           <line>5</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java</url>
+          <line>4</line>
+          <properties field="root" class="day41designpatterns.singleton.BinaryTree.BinaryTreeLL" />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java</url>
+          <line>4</line>
+          <properties field="value" class="day41designpatterns.singleton.BinaryTree.BinaryNode" />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java</url>
+          <line>5</line>
+          <properties field="left" class="day41designpatterns.singleton.BinaryTree.BinaryNode" />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java</url>
+          <line>6</line>
+          <properties field="right" class="day41designpatterns.singleton.BinaryTree.BinaryNode" />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java</url>
+          <line>7</line>
+          <properties field="height" class="day41designpatterns.singleton.BinaryTree.BinaryNode" />
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
