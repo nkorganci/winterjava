@@ -7,7 +7,7 @@ public class BinaryTree1 {
         preOrder();
     }
 
-    private void preOrder(Node4 p){
+    private void preOrder(Node1 p){
         if(p==null){
             return;
         }

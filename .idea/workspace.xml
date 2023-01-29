@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/Node4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursionLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursiveLogic1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/BinaryTreeLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/treeashok/Node4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryTreeLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryTreeLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/queue/QueueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/queue/QueueArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/Node4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/queue/QueueArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +91,7 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeLL">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.BinaryTree.A" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RecursiveLogic1">
     <configuration name="BinaryTreeLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.BinaryTree.udemy.BinaryTreeLL" />
       <module name="winterjava" />
@@ -138,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.TwoSum" />
+    <configuration name="RecursionLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.recursionudemy.RecursionLogic" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.arrays.*" />
+          <option name="PATTERN" value="day41designpatterns.singleton.recursion.recursionudemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveLogic1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.recursion.recursionudemy.RecursiveLogic1" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day41designpatterns.singleton.recursion.recursionudemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveLogic1" />
+        <item itemvalue="Application.RecursionLogic" />
         <item itemvalue="Application.BinaryTreeLL" />
         <item itemvalue="Application.Btr" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +331,11 @@
           <url>file://$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java</url>
           <line>5</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

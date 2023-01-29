@@ -1,5 +1,8 @@
 package day41designpatterns.singleton.BinaryTree.udemy;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,10 +22,25 @@ class BinaryTreeLL {
         if (node == null) {
             return;
         }
-
         System.out.print(node.data + "->");
         preOrder(node.left);
         preOrder(node.right);
+    }
+
+    //InOrder Traversal
+    public void inOrder(BinaryNode node) {
+        if (node == null) {
+            return;
+        }
+        inOrder(node.left);
+        System.out.print(node.data+" ");
+        inOrder(node.right);
+    }
+
+    // Search Method
+    public void search(String value){
+        Queue<BinaryNode> queue = new LinkedList<>();
+        queue.add(root);
     }
 
     public static void main(String[] args) {
@@ -39,7 +57,9 @@ class BinaryTreeLL {
 
         BinaryTreeLL binaryTree = new BinaryTreeLL();
         binaryTree.root = n1;
-        binaryTree.preOrder(binaryTree.root);
+//        binaryTree.preOrder(binaryTree.root);
+        System.out.println();
+        binaryTree.inOrder(binaryTree.root);
 
     }
 

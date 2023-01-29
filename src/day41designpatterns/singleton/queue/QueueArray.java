@@ -13,13 +13,13 @@ public class QueueArray {
         rear = -1;
     }
 
-    QueueArray(int maxSize) {
+    public QueueArray(int maxSize) {
         qarr = new int[maxSize];
         front = -1;
         rear = -1;
     }
 
-    boolean isEmpty() {
+    public boolean isEmpty() {
         return (front == -1 || rear == -1);
     }
 
@@ -45,7 +45,7 @@ public class QueueArray {
         qarr[rear] = x;
     }
 
-    int delete() {
+    public int delete() {
         int k;
         if (isEmpty()) {
             System.out.println("Queu is empty");
