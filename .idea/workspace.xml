@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_12_03_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_10_31_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_10_31_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2022_7_13_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2022_7_13_PM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryTreeLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +60,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/korganuj/IdeaProjects/winterjava/src/day41designpatterns/singleton",
-    "run.code.analysis.last.selected.profile": "pProject Default"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="a02java" />
@@ -86,7 +75,7 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day41designpatterns.singleton.binarysearchtree.Main">
+  <component name="RunManager" selected="Application.RemoveDuplicateCharacters">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.stack.Main" />
       <module name="winterjava" />
@@ -100,38 +89,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.linked.linkedudemy.Main1" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.linked.linkedudemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MissNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.arrays.udemy.MissNum" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.arrays.udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveDublicateFromUnsortedLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.linked.linkedudemy.RemoveDublicateFromUnsortedLL" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day41designpatterns.singleton.linked.linkedudemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.RemoveDuplicateCharacters" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.ReverseString" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a01codingpractice.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateCharacters" />
+        <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.day41designpatterns.singleton.binarysearchtree.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RemoveDublicateFromUnsortedLL" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.MissNum" />
       </list>
     </recent_temporary>
   </component>
