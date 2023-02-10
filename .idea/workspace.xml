@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/OccurenceOfEachCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryTreeLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicateCharacters">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.stack.Main" />
+  <component name="RunManager" selected="Application.FirstNonRepeatedChar">
+    <configuration name="FirstNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.FirstNonRepeatedChar" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.stack.*" />
+          <option name="PATTERN" value="a01codingpractice.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDublicateFromUnsortedLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.linked.linkedudemy.RemoveDublicateFromUnsortedLL" />
+    <configuration name="OccurenceOfEachCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.OccurenceOfEachCharacter" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.linked.linkedudemy.*" />
+          <option name="PATTERN" value="a01codingpractice.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +102,19 @@
     </configuration>
     <configuration name="RemoveDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.RemoveDuplicateCharacters" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseEachWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.ReverseEachWord" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -128,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day41designpatterns.singleton.binarysearchtree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.singleton.binarysearchtree.Main" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.singleton.binarysearchtree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstNonRepeatedChar" />
+        <item itemvalue="Application.OccurenceOfEachCharacter" />
+        <item itemvalue="Application.ReverseEachWord" />
         <item itemvalue="Application.RemoveDuplicateCharacters" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.day41designpatterns.singleton.binarysearchtree.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RemoveDublicateFromUnsortedLL" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +318,26 @@
           <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
