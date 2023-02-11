@@ -1,45 +1,37 @@
 package a01codingpractice.string;
 
-import java.util.Arrays;
-
 public class ReverseString {
 
     public static void main(String[] args) {
-        reverseString("123");
-    }
 
-    public static void reverseString(String str) {
-
-        byte[] b = str.getBytes();
-        System.out.println(Arrays.toString(b));
-
-        char[] c = str.toCharArray();
-        System.out.println(Arrays.toString(c));
-
-        // 1st way charArray
-        for (int i = str.length()-1; i >=0 ; i--) {
-            System.out.print(c[i]);
-        }
-
-        //2nd Way
-        String reverseSr ="";
-
-        for (int i = str.length()-1; i >=0 ; i--) {
-            reverseSr +=str.charAt(i);
-
-        }
-        System.out.println();
-        System.out.println(reverseSr);
-
-        //3rd Way
-        StringBuffer stringBuffer = new StringBuffer(str);
-        System.out.println(stringBuffer.reverse());
-
-        //4th Way
-        StringBuilder stringBuilder = new StringBuilder(str);
-        System.out.println(stringBuilder.reverse());
+        r("Hello");
 
     }
 
+    public static void r(String s){
+        //1st Way charAt()
+        String reversedS = "";
+        for (int i = s.length()-1; i >=0 ; i--) {
+            reversedS +=s.charAt(i);
+        }
+        System.out.println("1: " + reversedS);
+
+        //2nd Way toCharArray
+        char [] chars = s.toCharArray();
+        String reversedS1 = "";
+        for (int i = chars.length-1; i >=0 ; i--) {
+            reversedS1 +=chars[i];
+        }
+        System.out.println(reversedS1);
+
+        //3rd Way StringBuilder
+        StringBuilder sb = new StringBuilder(s);
+        sb.reverse();
+        System.out.println(sb);
+
+        //4th StringBuffer
+        StringBuffer sbuffer = new StringBuffer(s);
+        System.out.println(sbuffer.reverse());
+    }
 
 }
