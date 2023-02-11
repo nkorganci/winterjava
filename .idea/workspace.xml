@@ -5,22 +5,431 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/alphaacademy/FunWithSequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveRepeatedChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReplaceCharWithItsNumberOfOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/SortingStringChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/GroupingBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/L09_StreamApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/LambdaExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/MaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/Reduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/L10_MapFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/OccurrenceOfChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/OccurrenceOfChars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/GroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day36lambda/GroupingBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02scanner/IncrementDecrement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/IncrementDecrement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02scanner/OrderOfOperations01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/OrderOfOperations01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02scanner/ScannerClass01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/ScannerClass01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02scanner/TypeCasting01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/TypeCasting01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/Concatenation01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/Concatenation01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/IfStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/IfStatement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/ModulesOperator01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/ModulesOperator01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/WrapperClass01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/WrapperClass01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperatorspractice/ModulesOperator01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperatorspractice/ModulesOperator01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04ififelseifthenelse/L01_IfStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day04ififelseifthenelse/L01_IfStatement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04ififelseifthenelse/L02_IfElseStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day04ififelseifthenelse/L02_IfElseStatement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/ifElseStatement02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/ifElseStatement02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L01_LeapYearInterviewQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L01_LeapYearInterviewQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L02_Ternary01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L02_Ternary01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L03_Ternary03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L03_Ternary03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L04_LeapYearInterviewQuestionWithTernary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L04_LeapYearInterviewQuestionWithTernary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07stringmethods/RegularExpressionsAndExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07stringmethods/StringManipulationsNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08stringmethodsmethodcreation/MethodCreation01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09methodoverloadingloops/L01_MethodOverloading01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09methodoverloadingloops/L02_ForLoop01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopDrawTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopEvenOddNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopFactoriel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopSumOfTheNUmbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopsUpsideDownTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/Reverse2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop033.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/WhileLoop01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/WhileLoop02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/InstanceLocalAndClassVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/Q1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/A_P1_DoWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/A_P1_Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/AnimalConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/DoWhile01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/InstanceLocalAndClassVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L01_Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L02_Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L03_Constructors01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L04_ConstructorReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P01_PrintFirstLettersofSentence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P03_NonRepeatedLettersInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P03_RemoveDublicateChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P04_ConstructorThis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/R01_IncrementDecrement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/socrative/P01_ConstructorCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L01_Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L02_Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L03_Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L04_StaticBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P1_Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P2_StaticClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleCalAvr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_StaticCodeBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P5_StaticExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P6_Final.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/CompareArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/L01_Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/ObjectMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day16multidimensionalarrays_V21/L01_MultiDimArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/I01_ArrayLIstInterview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/L01_ArrayLIsts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day18arraylists_V25_26_27/LIsts03ArrayListMethodsEDITED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day19foreachloop01_V28/L01_ForEachLoop01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L01_PassByValuePassByREference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L02_MutableImmutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L03_DateClass01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L04_LocalTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L05_Varargs01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L06_AccessModifier03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P01_Practice01_PassReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P01_Socrative_mutableimmutable_V31.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P02_Socrative_mutableimmutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/L01_AccessModifier01Review01Reference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/L03_AccessModifier03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/second/Second.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01Review01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier01Review02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L03_StringBuilder01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L01_StringBuilder01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L03_StringBuilder03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L04_Encapsulation01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L05_Encapsulation02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L01_Encapsulation01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L02_Encapsulation02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L03_Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L04_Mammals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L05_NotMammals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L06_Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L07_Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L08_Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L09_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P01_Socrative_Inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P01_socrativeEncapsulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P02_Reference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P03_Inheritence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Akademisyen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Calisan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Memur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/OgretimGorevlisi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L01_Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L02_Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L03_Honda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L04_Audi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L05_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L11_Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L12_Mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L13_Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L14_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/ObjectInputOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P10_FileReaderWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P11_BufferedReaderWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P12_PrintWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P1_File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P2_FileInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P3_FileOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P4_ByteArrayInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P5_ObjectInputOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P6_BufferedInputOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P7_PrintStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P8_InputStreamReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P9_OutputStreamWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/buffered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileInputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileOutputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileWriter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/printStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/Collections01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L05_Exceptions01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L06_Exception02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L07_Polymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L08_ThrowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L09_FileInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/P01_Socrative37.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/P02_OverridePractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/ArithmeticException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/ArrayIndexOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/FileNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/javaFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/fileForExc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/filefor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L01_Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L02_Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L03_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L04_Drived.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L04_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/HelloAndroid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P01_A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P02_Override.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P03_ReturnTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P04_Override01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P05_OverrideFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/exceptions02/Exceptions01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/exceptions02/sample01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/fileForExc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L01_Exception01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L02_Execption02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L03_Exception03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/P01_Socrative01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/P02_Socrative02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/ErrorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/GarbageCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InterviewQuestions01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InvalidEmailIdCheckedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InvalidEmailIdUncheckedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/L01_ExceptionsFinalBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/TestInvalidEmailIdCheckedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/socrative_43/P01_Socrative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L00_AbstractInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L01_InterfaceReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L02_InterfaceExample01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L02_InterfaceExample01R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L03_InterfaceExample02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L03_InterfaceExample2R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_AbstractDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_Mongodatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_MysqlDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L01_Abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L02_ElementarySchoolCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L03_HighSchoolCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L04_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L05_BlindCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/socrative_abstracton_v43/P01_Abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/socrative_abstracton_v43/P02_Abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/I01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Carnivorous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/DomesticPet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/L01_I001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/L02_Sound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/L01_Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/I01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/I03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/Operations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/LIstMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsLinkedLIst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsQueuePriorityQueueDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsSetHashSetLinkedHashSetTreeSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/Set/Set01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A01_Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A02_Objects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A03_ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A04_CollectionsCommonMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A05_LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A06_Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A07_Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A08_Hashset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A09_LinkedInSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A10_TreeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A11_HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A12_TreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A13_PriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A14_PropertiesClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A15_Collections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A16_Comparable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A17_Comparative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A18_FailFastFailSafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A18_HashMapIdentityHashmap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A19_StringTokenizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/interview/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day33collections/mapslesson_v48/MapsHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/L01_MapsHashMapMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/L02_MapQuestionsNumberOfChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/L02_MapQuestionsReturnNonRepeatedElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/MapQuestions03HW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/Pat01Maps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FactorialNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FibonacciNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FibonacciSeries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FindSumOfNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FindTheSumOfDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/InfiniteTimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/MultiplicationOf2Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/NthFibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PowerOfANumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PrintAllNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/ProductOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/RecursionExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/SumOfTheNumAtoB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/SumOfTheNumFromMaxtoMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/WhileLoopRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day34maps/sample.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L01_ExamplePrintIntegersWithoutUsingIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L02_ConvertSsvToMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L03_HashMap0HowDoesItWorkInternally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L04_HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L05_TreeMao01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/myfile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/FlatMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/GroupingBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L00_LambdaMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L01_LambdaWithInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L02_LambdaWithStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L03_LambdaWidthMethodReferenceInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L04_LambdaWidthMethodReferenceStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L06_Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L06a_LambdaWithObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L07_LambdaForForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L08_LambdaWithFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/L09_StreamApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/LambdaExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/MaxMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/Reduction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A01_RegularInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A02_FunctionalInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A03_Predicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/AS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/L10_MapFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/FunctionalInterfaceParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/TestInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdafile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ArraySetAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Constructor01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Equals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ForLoopVar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Interface02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/LIstarrayq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MainMethodOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MethodOverloading01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q008AutoBoxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q009.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q01LabelWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Shape01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/StringBuilder01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Switch01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ifq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/var_repeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/BinaryTree1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/CompileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/CompileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/CompileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/CompileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/OptionalClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/OptionalClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/PojoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/PojoClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/Reflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SAMPLE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SAMPLE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SerializableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SerializableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SingletonClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SingletonClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SingletonClassExampleReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SingletonClassExampleReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/ToStringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/ToStringClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/FindMinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/FindMinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/MissingNumberInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SecondBestInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SecondBestInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SortingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SumOfDiagonals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SumOfDiagonals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/Udemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/Udemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/MaximumMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/MaximumMultiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/MissNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/MissNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/TwoSumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/TwoSumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarysearchtree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarysearchtree/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/Swapping2Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/Swapping2Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/linkedudemy/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/linkedudemy/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/linkedudemy/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/linkedudemy/Questions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/LeftTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/pattern/LeftTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/Pattern1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/pattern/Pattern1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/queue/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/ArrayNumbersProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/ArrayNumbersProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursionLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursionLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursiveLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/timecomplexity/PrintArraysAsPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/timecomplexity/PrintArraysAsPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/timecomplexity/SumAndMultiplicationOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/timecomplexity/SumAndMultiplicationOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,87 +656,87 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SortingArray.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SortingArray.java</url>
           <line>9</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/FactorialNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/FactorialNumber.java</url>
           <line>13</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java</url>
           <line>16</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java</url>
           <line>13</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java</url>
           <line>40</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java</url>
           <line>39</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java</url>
           <line>47</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/FibonacciNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/FibonacciNumbers.java</url>
           <line>17</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/RecursionExamples.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/RecursionExamples.java</url>
           <line>20</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/PrintReverseOrder.java</url>
           <line>10</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/PrintReverseOrder.java</url>
           <line>12</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/PrintReverseOrder.java</url>
           <line>8</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/PrintReverseOrder.java</url>
           <line>4</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/GreatestCommonDivisor.java</url>
           <line>13</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java</url>
+          <url>file://$PROJECT_DIR$/src/day01vairables/day34maps/recursion/GreatestCommonDivisor.java</url>
           <line>5</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/udemy/Main.java</url>
           <line>61</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/binarysearchtree/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>

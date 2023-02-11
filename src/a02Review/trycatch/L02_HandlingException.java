@@ -1,7 +1,5 @@
 package a02Review.trycatch;
 
-import day28exceptions_41.GarbageCollector;
-
 public class L02_HandlingException {
     public static void main(String[] args) {
 
