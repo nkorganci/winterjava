@@ -66,6 +66,16 @@ public class RemoveDuplicateChars {
         }
         System.out.println(sb2);
 
+        // Set
+
+        Set<Character> set1 = new LinkedHashSet<>();
+        for (int i = 0; i <str.length() ; i++) {
+            set1.add(str.charAt(i));
+        }
+        for(Character ch : set1){
+            sb.append(ch);
+        }
+
         }
 
 

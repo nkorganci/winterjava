@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateCharacters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateChars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseEachWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/OccurenceOfEachCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +77,9 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicateChars">
-    <configuration name="FirstNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.FirstNonRepeatedChar" />
+  <component name="RunManager" selected="Application.OccurrenceOfChars">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.A" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurenceOfEachCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.OccurenceOfEachCharacter" />
+    <configuration name="OccurrenceOfChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.OccurrenceOfChars" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OccurrenceOfChars" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.ReverseEachWord" />
         <item itemvalue="Application.RemoveDuplicateChars" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.FirstNonRepeatedChar" />
-        <item itemvalue="Application.OccurenceOfEachCharacter" />
-        <item itemvalue="Application.ReverseEachWord" />
       </list>
     </recent_temporary>
   </component>
@@ -323,29 +324,24 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java</url>
           <line>17</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

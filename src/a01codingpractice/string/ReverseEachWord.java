@@ -2,24 +2,26 @@ package a01codingpractice.string;
 
 public class ReverseEachWord {
     public static void main(String[] args) {
-
-        reverseWord("Hello World");
+        reverseWord("d");
     }
 
-    public static void reverseWord(String str) {
+    public static void reverseWord(String str){
 
-        String[] arr = str.split(" ");
+        if(str.length()<=1){
+            System.out.println(str);
+        }
 
-        String result = "";
-        for (String str1 : arr) {
-            String w = "";
-            for (int i = str1.length() - 1; i >= 0; i--) {
-                w += str1.charAt(i);
+
+        String[] strArray= str.split(" ");
+        String resul="";
+        for(String stringWord: strArray){
+            String w ="";
+            for (int i = stringWord.length()-1; i >=0 ; i--) {
+                w +=stringWord.charAt(i);
             }
-            result += w + " ";
+            resul +=w+" ";
 
         }
-        System.out.println(result);
-
+        System.out.println(resul);
     }
 }
