@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/alphaacademy/FunWithSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveRepeatedChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReplaceCharWithItsNumberOfOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/string/SortingStringChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/GroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/L09_StreamApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/LambdaExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/MaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/Reduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/L10_MapFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateChars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseEachWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/OccurenceOfEachCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/ReverseEachWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/OccurrenceOfChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/OccurrenceOfChars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01codingpractice/string/OccurrenceOfChars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +85,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OccurrenceOfChars">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.A" />
+  <component name="RunManager" selected="Application.GroupingBy">
+    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.FlatMap" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurrenceOfChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.OccurrenceOfChars" />
+    <configuration name="GroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.GroupingBy" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.RemoveDuplicateChars" />
+    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.LambdaExpression" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseEachWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.ReverseEachWord" />
+    <configuration name="MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.MaxMin" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a01codingpractice.string.ReverseString" />
+    <configuration name="Reduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.Reduction" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a01codingpractice.string.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OccurrenceOfChars" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.ReverseEachWord" />
-        <item itemvalue="Application.RemoveDuplicateChars" />
-        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.GroupingBy" />
+        <item itemvalue="Application.Reduction" />
+        <item itemvalue="Application.MaxMin" />
+        <item itemvalue="Application.FlatMap" />
+        <item itemvalue="Application.LambdaExpression" />
       </list>
     </recent_temporary>
   </component>
@@ -322,11 +330,6 @@
           <url>file://$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/FirstNonRepeatedChar.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
