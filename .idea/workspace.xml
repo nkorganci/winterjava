@@ -5,431 +5,537 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
+      <change afterPath="$PROJECT_DIR$/src/day42designpatterns/FactoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day42designpatterns/Prototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/GroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day36lambda/GroupingBy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/trycatch/L02_HandlingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02scanner/IncrementDecrement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/IncrementDecrement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02scanner/OrderOfOperations01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/OrderOfOperations01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02scanner/ScannerClass01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/ScannerClass01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02scanner/TypeCasting01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day02scanner/TypeCasting01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/Concatenation01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/Concatenation01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/IfStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/IfStatement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/LogicalOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/ModulesOperator01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/ModulesOperator01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperators/WrapperClass01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperators/WrapperClass01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03wrapperclassconcatenatelogicaloperatorspractice/ModulesOperator01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day03wrapperclassconcatenatelogicaloperatorspractice/ModulesOperator01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04ififelseifthenelse/L01_IfStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day04ififelseifthenelse/L01_IfStatement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04ififelseifthenelse/L02_IfElseStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day04ififelseifthenelse/L02_IfElseStatement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/IfElseStatment06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/IfElseStatment06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05ifelseifCheckConditions/ifElseStatement02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day05ifelseifCheckConditions/ifElseStatement02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L01_LeapYearInterviewQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L01_LeapYearInterviewQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L02_Ternary01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L02_Ternary01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L03_Ternary03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L03_Ternary03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/L04_LeapYearInterviewQuestionWithTernary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/L04_LeapYearInterviewQuestionWithTernary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06nestedifternaryswitch/SwitchStatement03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day06nestedifternaryswitch/SwitchStatement03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07stringmethods/RegularExpressionsAndExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07stringmethods/StringManipulationsNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08stringmethodsmethodcreation/MethodCreation01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09methodoverloadingloops/L01_MethodOverloading01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09methodoverloadingloops/L02_ForLoop01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopDrawTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopEvenOddNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopFactoriel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopSumOfTheNUmbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/ForLoopsUpsideDownTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/Reverse2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10forloops/WhileLoop03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/AAQ4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/DoWhileLoop033.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/WhileLoop01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11whileloopdowhlileloop/WhileLoop02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/DoWhileLoop03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/InstanceLocalAndClassVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhileloop/Q1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/A_P1_DoWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/A_P1_Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/AnimalConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/DoWhile01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/InstanceLocalAndClassVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L01_Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L02_Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L03_Constructors01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/L04_ConstructorReview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P01_PrintFirstLettersofSentence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P03_NonRepeatedLettersInString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P03_RemoveDublicateChars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/P04_ConstructorThis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/R01_IncrementDecrement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13constructors_V18/socrative/P01_ConstructorCall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L01_Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L02_Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L03_Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/L04_StaticBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P1_Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P2_StaticClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleCalAvr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P4_StaticCodeBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P5_StaticExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14constructorsstatickeywordarrays_V19/P6_Final.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/CompareArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/L01_Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15arrays_V20/ObjectMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day16multidimensionalarrays_V21/L01_MultiDimArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/I01_ArrayLIstInterview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day17arraylists_V24/L01_ArrayLIsts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day18arraylists_V25_26_27/LIsts03ArrayListMethodsEDITED.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day19foreachloop01_V28/L01_ForEachLoop01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L01_PassByValuePassByREference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L02_MutableImmutable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L03_DateClass01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L04_LocalTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L05_Varargs01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/L06_AccessModifier03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P01_Practice01_PassReference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P01_Socrative_mutableimmutable_V31.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P02_Socrative_mutableimmutable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20passbyvaluebyreferencedate_V29/P03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/L01_AccessModifier01Review01Reference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/L03_AccessModifier03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_ReferenceForPractice/second/Second.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01Review01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier01Review02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21accessmodifierstringbuilder_V30_32/L03_StringBuilder01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L01_StringBuilder01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L03_StringBuilder03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L04_Encapsulation01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/L05_Encapsulation02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22stringbuilderencapsulation_31/P1_EncapsulationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L01_Encapsulation01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L02_Encapsulation02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L03_Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L04_Mammals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L05_NotMammals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L06_Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L07_Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L08_Bird.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/L09_Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P01_Socrative_Inheritance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P01_socrativeEncapsulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P02_Reference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/P03_Inheritence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/dependencies/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Akademisyen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Calisan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/Memur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23encapsulationInheritance_V34/inheritance/OgretimGorevlisi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L01_Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L02_Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L03_Honda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L04_Audi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L05_Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L11_Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L12_Mammal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L13_Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24inheritanceoverriding_V35/L14_Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/ObjectInputOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P10_FileReaderWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P11_BufferedReaderWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P12_PrintWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P1_File.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P2_FileInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P3_FileOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P4_ByteArrayInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P5_ObjectInputOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P6_BufferedInputOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P7_PrintStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P8_InputStreamReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/P9_OutputStreamWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/buffered.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileInputStream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileOutputStream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/fileWriter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/printStream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text01/b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25inputoutputstreamsP/text03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/Collections01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L05_Exceptions01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L06_Exception02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L07_Polymorphism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L08_ThrowException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/L09_FileInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/P01_Socrative37.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/P02_OverridePractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/ArithmeticException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/ArrayIndexOutOfBoundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/FileNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/exception01/javaFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/fileForExc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/filefor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L01_Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L02_Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L03_Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L04_Drived.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding/L04_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/HelloAndroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25overridingexceptions_36/overriding_v38/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P01_A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P02_Override.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P03_ReturnTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P04_Override01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/P05_OverrideFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/Socrative_Overriding_Overloading/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/exceptions02/Exceptions01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/exceptions02/sample01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26exceptions_37/fileForExc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L01_Exception01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L02_Execption02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/L03_Exception03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/P01_Socrative01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27exceptions_V40/P02_Socrative02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/ErrorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/GarbageCollector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InterviewQuestions01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InvalidEmailIdCheckedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/InvalidEmailIdUncheckedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/L01_ExceptionsFinalBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/TestInvalidEmailIdCheckedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day28exceptions_41/socrative_43/P01_Socrative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L00_AbstractInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L01_InterfaceReview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L02_InterfaceExample01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L02_InterfaceExample01R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L03_InterfaceExample02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L03_InterfaceExample2R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_AbstractDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_Mongodatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/L04_MysqlDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L01_Abstraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L02_ElementarySchoolCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L03_HighSchoolCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L04_Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/abstractionLesson_V42/L05_BlindCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/socrative_abstracton_v43/P01_Abstraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day29abstractclass_V42/socrative_abstracton_v43/P02_Abstraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/I01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Carnivorous.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/DomesticPet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/L01_I001.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/L02_Sound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Mammal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/interfacelesson_V43/Tiger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day30interfaces_43/socrative_Interfaceabstract_46/Interface03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/L01_Iterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31a_Collections/MultithreadThing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/I01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/I03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/Operations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/Interfaceslesson_v46/parent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/LIstMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31interfacecollections_v46/iteratotrs/Iterators04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSetExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsLinkedLIst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsQueuePriorityQueueDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/CollectionsSetHashSetLinkedHashSetTreeSet1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/Set/Set01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A01_Arrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A02_Objects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A03_ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A04_CollectionsCommonMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A05_LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A06_Vector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A07_Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A08_Hashset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A09_LinkedInSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A10_TreeSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A11_HashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A12_TreeMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A13_PriorityQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A14_PropertiesClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A15_Collections.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A16_Comparable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A17_Comparative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A18_FailFastFailSafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A18_HashMapIdentityHashmap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/A19_StringTokenizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/collectionsAshok/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/interview/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day32collections_v47/socrative_iterator_v47/Iterator06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day33collections/mapslesson_v48/MapsHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/L01_MapsHashMapMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/L02_MapQuestionsNumberOfChars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/L02_MapQuestionsReturnNonRepeatedElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/MapQuestions03HW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/Pat01Maps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/DecimalToBinary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FactorialNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FibonacciNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FibonacciSeries.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FindSumOfNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/FindTheSumOfDigits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/GreatestCommonDivisor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/InfiniteTimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/MultiplicationOf2Numbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/NthFibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PowerOfANumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PrintAllNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/PrintReverseOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/ProductOfArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/RecursionExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/ReverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/SumOfTheNumAtoB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/SumOfTheNumFromMaxtoMin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/recursion/WhileLoopRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34maps/sample.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L01_ExamplePrintIntegersWithoutUsingIntegers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L02_ConvertSsvToMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L03_HashMap0HowDoesItWorkInternally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L04_HashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/L05_TreeMao01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day35mapslambda/myfile.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/FlatMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/GroupingBy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L00_LambdaMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L01_LambdaWithInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L02_LambdaWithStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L03_LambdaWidthMethodReferenceInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L04_LambdaWidthMethodReferenceStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L06_Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L06a_LambdaWithObjects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L07_LambdaForForLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L08_LambdaWithFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/L09_StreamApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/LambdaExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/MaxMin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/Reduction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A01_RegularInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A02_FunctionalInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/A03_Predicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/AS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/L10_MapFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/FunctionalInterfaceParameter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdaaskhok/java8stream/TestInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day36lambda/lambdafile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ArraySetAdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Constructor01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Equals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception022.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Exception03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ForLoopVar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Interface02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/LIstarrayq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MainMethodOverloading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MethodOverloading01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q008AutoBoxing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q009.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Q01LabelWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Shape01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/StringBuilder01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Switch01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/Variable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/ifq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day40CodeUsingJava/var_repeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/BinaryTree1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/treeashok/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/CompileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/CompileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/CompileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/CompileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/OptionalClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/OptionalClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/PojoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/PojoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/Reflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SAMPLE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SAMPLE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SerializableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SerializableClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SingletonClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SingletonClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/SingletonClassExampleReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/SingletonClassExampleReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/ToStringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/ToStringClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/FindMinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/FindMinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/MissingNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/MissingNumberInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SecondBestInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SecondBestInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SortingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/SumOfDiagonals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/SumOfDiagonals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/Udemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/Udemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/MaximumMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/MaximumMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/MissNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/MissNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/arrays/udemy/TwoSumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/udemy/TwoSumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarysearchtree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/binarysearchtree/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarysearchtree/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/JumpStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/JumpStatements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/ReverseNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/general/Swapping2Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/general/Swapping2Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/linkedudemy/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/linkedudemy/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/linked/linkedudemy/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/linked/linkedudemy/Questions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/LeftTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/pattern/LeftTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/pattern/Pattern1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/pattern/Pattern1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/queue/QueueArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/ArrayNumbersProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/ArrayNumbersProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursionLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursionLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/RecursiveLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/recursion/recursionudemy/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/timecomplexity/PrintArraysAsPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/timecomplexity/PrintArraysAsPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/singleton/timecomplexity/SumAndMultiplicationOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/timecomplexity/SumAndMultiplicationOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/trycatch/L02_HandlingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day02scanner/IncrementDecrement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day02scanner/OrderOfOperations01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day02scanner/ScannerClass01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day02scanner/TypeCasting01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperators/Concatenation01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperators/IfStatement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperators/LogicalOperators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperators/ModulesOperator01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperators/WrapperClass01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day03wrapperclassconcatenatelogicaloperatorspractice/ModulesOperator01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day04ififelseifthenelse/L01_IfStatement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day04ififelseifthenelse/L02_IfElseStatement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/IfElseStatement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/IfElseStatment03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/IfElseStatment04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/IfElseStatment05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/IfElseStatment06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day05ifelseifCheckConditions/ifElseStatement02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/L01_LeapYearInterviewQuestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/L02_Ternary01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/L03_Ternary03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/L04_LeapYearInterviewQuestionWithTernary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/SwitchStatement01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/SwitchStatement02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day06nestedifternaryswitch/SwitchStatement03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day07stringmethods/RegularExpressionsAndExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day07stringmethods/StringManipulationsNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day08stringmethodsmethodcreation/MethodCreation01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day09methodoverloadingloops/L01_MethodOverloading01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day09methodoverloadingloops/L02_ForLoop01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopDrawTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopEvenOddNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopFactoriel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopSumOfTheNUmbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/ForLoopsUpsideDownTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/Reverse2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/WhileLoop01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/WhileLoop02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day10forloops/WhileLoop03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/AAQ1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/AAQ2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/AAQ3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/AAQ4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/DoWhileLoop02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/DoWhileLoop03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/DoWhileLoop033.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/WhileLoop01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day11whileloopdowhlileloop/WhileLoop02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/DoWhileLoop01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/DoWhileLoop02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/DoWhileLoop03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/InstanceLocalAndClassVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhileloop/Q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/A_P1_DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/A_P1_Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/AnimalConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/DoWhile01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/InstanceLocalAndClassVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/NewKeyWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day12dowhilevariablesconstructorsPractice/constructor/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/L01_Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/L02_Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/L03_Constructors01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/L04_ConstructorReview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/P01_PrintFirstLettersofSentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/P03_NonRepeatedLettersInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/P03_RemoveDublicateChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/P04_ConstructorThis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/R01_IncrementDecrement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/socrative/Animal22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/socrative/Dog22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/socrative/Mammals22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day13constructors_V18/socrative/P01_ConstructorCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/A_P1_DefaultConstructor02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/A_P1_StaticNonStatic02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/L01_Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/L02_Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/L03_Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/L04_StaticBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P1_Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P2_StaticClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P3_ExampleCalAvr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P3_ExampleMainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P4_Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P4_StaticCodeBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P5_StaticExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/P6_Final.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/StaticClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day14constructorsstatickeywordarrays_V19/Writers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day15arrays_V20/CompareArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day15arrays_V20/L01_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day15arrays_V20/ObjectMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day16multidimensionalarrays_V21/L01_MultiDimArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day17arraylists_V24/I01_ArrayLIstInterview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day17arraylists_V24/L01_ArrayLIsts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day18arraylists_V25_26_27/LIsts03ArrayListMethodsEDITED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day19foreachloop01_V28/L01_ForEachLoop01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L01_PassByValuePassByREference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L02_MutableImmutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L03_DateClass01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L04_LocalTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L05_Varargs01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/L06_AccessModifier03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/P01_Practice01_PassReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/P01_Socrative_mutableimmutable_V31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/P02_Socrative_mutableimmutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day20passbyvaluebyreferencedate_V29/P03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/L01_AccessModifier01Review01Reference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/L03_AccessModifier03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/first/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_ReferenceForPractice/second/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_V30_32/L01_AccessModifier01Review01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier01Review02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_V30_32/L02_AccessModifier02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day21accessmodifierstringbuilder_V30_32/L03_StringBuilder01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/L01_StringBuilder01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/L03_StringBuilder03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/L04_Encapsulation01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/L05_Encapsulation02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/P1_EncapsulationA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day22stringbuilderencapsulation_31/P1_EncapsulationRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L01_Encapsulation01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L02_Encapsulation02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L03_Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L04_Mammals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L05_NotMammals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L06_Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L07_Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L08_Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/L09_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/P01_Socrative_Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/P01_socrativeEncapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/P02_Reference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/P03_Inheritence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/Programmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/dependencies/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/dependencies/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/dependencies/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/inheritance/Akademisyen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/inheritance/Calisan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/inheritance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/inheritance/Memur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day23encapsulationInheritance_V34/inheritance/OgretimGorevlisi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L01_Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L02_Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L03_Honda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L04_Audi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L05_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L11_Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L12_Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L13_Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day24inheritanceoverriding_V35/L14_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/BufferedWriter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/ObjectInputOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P10_FileReaderWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P11_BufferedReaderWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P12_PrintWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P1_File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P2_FileInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P3_FileOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P4_ByteArrayInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P5_ObjectInputOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P6_BufferedInputOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P7_PrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P8_InputStreamReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/P9_OutputStreamWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/buffered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/fileInputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/fileOutputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/fileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/fileWriter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/printStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/text01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/text01/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/text01/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/text02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25inputoutputstreamsP/text03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/Collections01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/L05_Exceptions01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/L06_Exception02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/L07_Polymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/L08_ThrowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/L09_FileInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/M.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/P01_Socrative37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/P02_OverridePractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/TestExceptionPropagation1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/TestExceptionPropagation2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/TestThrow1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/Testthrows2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/exception01/ArithmeticException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/exception01/ArrayIndexOutOfBoundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/exception01/FileNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/exception01/javaFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/fileForExc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/filefor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding/L01_Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding/L02_Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding/L03_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding/L04_Drived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding/L04_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/HelloAndroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass$subclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass$superclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/NewClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overridingOverloadingStaticDynamicBinding/Polymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding_v38/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding_v38/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/overriding_v38/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day25overridingexceptions_36/run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/C2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/P02_Override.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/P03_ReturnTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/P04_Override01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/P05_OverrideFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/Socrative_Overriding_Overloading/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/exceptions02/Exceptions01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/exceptions02/Exceptions02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/exceptions02/sample01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day26exceptions_37/fileForExc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/L01_Exception01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/L02_Execption02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/L03_Exception03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/P01_Socrative01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/P02_Socrative02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day27exceptions_V40/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/ErrorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/GarbageCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/InterviewQuestions01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/InvalidEmailIdCheckedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/InvalidEmailIdUncheckedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/L01_ExceptionsFinalBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/TestInvalidEmailIdCheckedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day28exceptions_41/socrative_43/P01_Socrative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/DatabaseManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/DemoClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/FirstInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L00_AbstractInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L02_InterfaceExample01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L02_InterfaceExampleImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L02_InterfaceReview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L03_InterfaceExample02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L03_Interface_Example2R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L04_AbstractDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L04_Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L04_Mongodatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/L04_MysqlDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/SecondInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/abstractionLesson_V42/L01_Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/abstractionLesson_V42/L02_ElementarySchoolCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/abstractionLesson_V42/L03_HighSchoolCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/abstractionLesson_V42/L04_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/abstractionLesson_V42/L05_BlindCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/boy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/mongoDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/socrative_abstracton_v43/P01_Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/socrative_abstracton_v43/P02_Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/socrative_abstracton_v43/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day29abstractclass_V42/socrative_abstracton_v43/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/Carnivorous.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/DomesticPet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/I01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/Sound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/Carnivorous.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/DomesticPet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/L01_I001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/L02_Sound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/interfacelesson_V43/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/C01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Interface01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Interface02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Interface03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Interface04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day30interfaces_43/socrative_Interfaceabstract_46/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31a_Collections/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31a_Collections/L01_Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/I01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/I02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/I03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/Operations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/Interfaceslesson_v46/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/LIstMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/iteratotrs/Iterators01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/iteratotrs/Iterators02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/iteratotrs/Iterators03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day31interfacecollections_v46/iteratotrs/Iterators04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/CollectionsComparisonOfHashSetAndTreeSetExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/CollectionsLinkedLIst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/CollectionsQueuePriorityQueueDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/CollectionsSetHashSetLinkedHashSetTreeSet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/Set/Set01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A01_Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A02_Objects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A03_ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A04_CollectionsCommonMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A05_LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A06_Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A07_Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A08_Hashset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A09_LinkedInSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A10_TreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A11_HashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A12_TreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A13_PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A14_PropertiesClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A15_Collections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A16_Comparable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A17_Comparative$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A17_Comparative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A18_FailFastFailSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A18_HashMapIdentityHashmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/A19_StringTokenizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/EmpIdComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/EmpNameComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/FailSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/collectionsAshok/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/interview/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day32collections_v47/socrative_iterator_v47/Iterator06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day33collections/mapslesson_v48/MapsHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/L01_MapsHashMapMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/L02_MapQuestionsNumberOfChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/L02_MapQuestionsReturnNonRepeatedElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/MapQuestions03HW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/Pat01Maps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/DecimalToBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/FactorialNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/FibonacciNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/FibonacciSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/FindSumOfNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/FindTheSumOfDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/GreatestCommonDivisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/InfiniteTimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/MultiplicationOf2Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/NthFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/PowerOfANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/PrintAllNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/PrintReverseOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/ProductOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/RecursionExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/SumOfTheNumAtoB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/SumOfTheNumFromMaxtoMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/recursion/WhileLoopRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day34maps/sample.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/L01_ExamplePrintIntegersWithoutUsingIntegers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/L02_ConvertSsvToMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/L03_HashMap0HowDoesItWorkInternally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/L04_HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/L05_TreeMao01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day35mapslambda/myfile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/FlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/FunctionInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/GroupingBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L00_LambdaMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L01_LambdaWithInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L02_LambdaWithStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L03_LambdaWidthMethodReferenceInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L04_LambdaWidthMethodReferenceStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L06_Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L06a_LambdaWithObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L07_LambdaForForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L08_LambdaWithFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/L09_StreamApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/LambdaExpression$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/LambdaExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/MaxMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Reduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/A01_RegularInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/A02_FunctionalInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/A03_Predicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/AS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/L10_MapFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/Addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/ExampleLambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/FunctionalInterfaceParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/StreamExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdaaskhok/java8stream/TestInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day36lambda/lambdafile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/ArraySetAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Clock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Constructor01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/County.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Exception01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Exception03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/ForLoopVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Interface02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/LIstarrayq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/MainMethodOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/MethodOverloading01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Q008AutoBoxing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Q01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Q13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Shape01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/StringBuilder01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Switch01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Te2st2342.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Teasdfst33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test00.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test045.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test051.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/Test33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day40CodeUsingJava/var_repeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/treeashok/BinaryTree1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/treeashok/Node1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/BinaryTree/udemy/BinaryNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/CompileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/OptionalClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/OptionalClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/PojoClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/Reflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/SAMPLE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/SerializableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/SingletonClassExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/SingletonClassExampleReflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/SpringBeanVsJavaBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/TestReflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/ToSTringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/ToStringClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/FindMinMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/MissingNumberInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/RotateImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/SecondBestInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/SortingArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/SumOfDiagonals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/Udemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/udemy/MaximumMultiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/udemy/MissNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/arrays/udemy/TwoSumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/binarysearchtree/BinaryNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/binarysearchtree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/binarysearchtree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/general/JumpStatements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/general/ReverseNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/general/Swapping2Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/linkedudemy/LinkedList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/linkedudemy/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/linkedudemy/Node1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/linked/linkedudemy/Questions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/pattern/LeftTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/pattern/Pattern1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/queue/QueueArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/queue/QueueArrayMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/ArrayNumbersProducts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/RecursionLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/RecursiveLogic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/recursion/recursionudemy/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/timecomplexity/PrintArraysAsPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/singleton/timecomplexity/SumAndMultiplicationOfArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,13 +600,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupingBy">
-    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.FlatMap" />
+  <component name="RunManager" selected="Application.Prototype">
+    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42designpatterns.FactoryMain" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
+          <option name="PATTERN" value="day42designpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,19 +616,6 @@
     </configuration>
     <configuration name="GroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day36lambda.GroupingBy" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.LambdaExpression" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -547,6 +640,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day42designpatterns.Prototype" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day42designpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Reduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day36lambda.Reduction" />
       <module name="winterjava" />
@@ -562,11 +668,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prototype" />
+        <item itemvalue="Application.FactoryMain" />
         <item itemvalue="Application.GroupingBy" />
         <item itemvalue="Application.Reduction" />
         <item itemvalue="Application.MaxMin" />
-        <item itemvalue="Application.FlatMap" />
-        <item itemvalue="Application.LambdaExpression" />
       </list>
     </recent_temporary>
   </component>
