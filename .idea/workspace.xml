@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day42designpatterns/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42designpatterns/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42designpatterns/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/RunnableCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ThreadCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/LambdaExpressionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/PredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +75,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonMain">
-    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42designpatterns.FactoryMain" />
+  <component name="RunManager" selected="Application.ThreadCreation">
+    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.MainThread" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42designpatterns.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.GroupingBy" />
+    <configuration name="RunnableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.RunnableClass" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42designpatterns.Prototype" />
+    <configuration name="RunnableCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.RunnableCreation" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42designpatterns.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.Reduction" />
+    <configuration name="SingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.SingleThread" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day42designpatterns.SingletonMain" />
+    <configuration name="ThreadCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.ThreadCreation" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day42designpatterns.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonMain" />
-        <item itemvalue="Application.Prototype" />
-        <item itemvalue="Application.FactoryMain" />
-        <item itemvalue="Application.GroupingBy" />
-        <item itemvalue="Application.Reduction" />
+        <item itemvalue="Application.ThreadCreation" />
+        <item itemvalue="Application.RunnableCreation" />
+        <item itemvalue="Application.RunnableClass" />
+        <item itemvalue="Application.MainThread" />
+        <item itemvalue="Application.SingleThread" />
       </list>
     </recent_temporary>
   </component>
