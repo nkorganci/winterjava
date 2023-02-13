@@ -5,8 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/arrays/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/MaximumSumInSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/MaximumSumSubArrayInK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SumExistsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/TwoSumPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/ThreadCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/ThreadCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/AS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/BalancedBrackets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Interview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/InvertCaseOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/ValueOfKAfterFunctionRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/alphaacademy/FunWithSequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/arrays/RemoveEvenIntegersFromArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/CamelCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/HappyNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/ReorganizeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/SelfDescriptiveNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/SelfDescriptiveNumber1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/chase/UglyNumbersFactors235.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/codesignal/Centry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/codesignal/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Adder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/AdvancedArithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/JavaCompiler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/JavaInheritance2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/JavaInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/MethodOverriding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/MethodOverriding2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/MyCalculator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/OddEvenStrPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/ReverseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Soccer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/hackerrank/Sports.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/interview/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/leetcode/NumberOfIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/FirstNonRepeatedChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/OccurrenceOfChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveDuplicateChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/RemoveRepeatedChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReplaceCharWithItsNumberOfOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseEachWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a01codingpractice/string/SortingStringChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/AB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/AB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/Bike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/D10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/D10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/L12_Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/L12_Overloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a02Review/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/a02Review/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Garage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/One.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Set1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Three.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/a04geeksforgeeks/Two.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/BinaryTree/treeashok/BinaryTree1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/BinaryTree/treeashok/Node1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a02Review/L12_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a02Review/L12_Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/BinaryTree1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/treeashok/Node1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +139,9 @@
       <recent name="C:\Users\korganuj\IdeaProjects\winterjava\src\day41designpatterns\singleton" />
       <recent name="C:\Users\NKorganci\IdeaProjects\winterjava\src\a02Review" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkorg\Downloads\Projects\winterjava1\src\day41designpatterns\datastructure\chase" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="day32collections_v47.collectionsAshok" />
     </key>
@@ -71,26 +149,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadCreation">
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.MainThread" />
+  <component name="RunManager" selected="Application.TwoSumPractice">
+    <configuration name="L12_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a02Review.L12_Overloading" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.RunnableClass" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="PATTERN" value="a02Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.SingleThread" />
+    <configuration name="SumExistsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.SumExistsInArray" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +202,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSumPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.TwoSumPractice" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSumPractice" />
+        <item itemvalue="Application.SumExistsInArray" />
+        <item itemvalue="Application.L12_Overloading" />
         <item itemvalue="Application.ThreadCreation" />
         <item itemvalue="Application.RunnableCreation" />
-        <item itemvalue="Application.RunnableClass" />
-        <item itemvalue="Application.MainThread" />
-        <item itemvalue="Application.SingleThread" />
       </list>
     </recent_temporary>
   </component>
@@ -218,17 +296,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/chase/SelfDescriptiveNumber1.java</url>
           <line>42</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/chase/SelfDescriptiveNumber1.java</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/chase/SelfDescriptiveNumber1.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/chase/SelfDescriptiveNumber1.java</url>
           <line>13</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -318,17 +396,17 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/string/RemoveDuplicateChars.java</url>
           <line>53</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/string/RemoveDuplicateChars.java</url>
           <line>58</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a01codingpractice/string/RemoveDuplicateChars.java</url>
+          <url>file://$PROJECT_DIR$/src/day41designpatterns/datastructure/string/RemoveDuplicateChars.java</url>
           <line>62</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
