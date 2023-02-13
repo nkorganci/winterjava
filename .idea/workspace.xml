@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/RunnableCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ThreadCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/LambdaExpressionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01codingpractice/arrays/StringCompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
