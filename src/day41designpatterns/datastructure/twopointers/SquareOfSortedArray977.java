@@ -9,18 +9,7 @@ import java.util.stream.Collectors;
 public class SquareOfSortedArray977 {
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(SquareOfArray(new int[]{1, 2, 4})));
         System.out.println(Arrays.toString(square(new int[]{2, 5, 1})));
-    }
-
-    public static int[] SquareOfArray(int[] arr) {
-
-        for (int i = 0; i < arr.length; i++) {
-
-            arr[i] = arr[i] * arr[i];
-        }
-        return arr;
-
     }
 
     public static int[] square(int[] arr) {
@@ -46,7 +35,7 @@ public class SquareOfSortedArray977 {
         int right = arr.length - 1;
 
         //Iterate from n t 0
-        for (int i = arr.length; i >= 0; i--) {
+        for (int i = arr.length-1; i >= 0; i--) {
             //Check if abs left is less than or equal to abs right
             if (Math.abs(arr[left]) >= Math.abs(arr[right])) {
                 //add left squared to result array

@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/MoveZeros283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/RemoveDuplicatesInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day30interfaces_43/TwoInterfaceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarytree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/fibonacciNthNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/ContainerWithMostWater11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SumExistsInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/TwoSumPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +94,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareOfSortedArray977">
-    <configuration name="L12_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a02Review.L12_Overloading" />
+  <component name="RunManager" selected="Application.a">
+    <configuration name="RecursiveLogic1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.recursion.recursionudemy.RecursiveLogic1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a02Review.*" />
+          <option name="PATTERN" value="day41designpatterns.datastructure.recursion.recursionudemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.MoveZeros283" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test1" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareOfSortedArray977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.SquareOfSortedArray977" />
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.binarytree.a" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
+          <option name="PATTERN" value="day41designpatterns.datastructure.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumExistsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.SumExistsInArray" />
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.recursion.recursionudemy.stack.fibonacci" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
+          <option name="PATTERN" value="day41designpatterns.datastructure.recursion.recursionudemy.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumIIInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.twopointers.TwoSumIIInArray" />
+    <configuration name="fibonacciNthNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.recursion.recursionudemy.fibonacciNthNumber" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.twopointers.*" />
+          <option name="PATTERN" value="day41designpatterns.datastructure.recursion.recursionudemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SquareOfSortedArray977" />
-        <item itemvalue="Application.MoveZeros283" />
-        <item itemvalue="Application.TwoSumIIInArray" />
-        <item itemvalue="Application.SumExistsInArray" />
-        <item itemvalue="Application.L12_Overloading" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.fibonacciNthNumber" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.fibonacci" />
+        <item itemvalue="Application.RecursiveLogic1" />
       </list>
     </recent_temporary>
   </component>
