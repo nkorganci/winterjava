@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day30interfaces_43/TwoInterfaceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/fibonacciNthNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/ContainerWithMostWater11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarytree/BinaryTreePreorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/BinaryTree/udemy/BinaryNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/RecursiveLogic1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/recursion/recursionudemy/stack/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarytree/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/binarytree/preorderTraversalRecursive.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
