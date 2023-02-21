@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/L01_ThreadCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/L02_RunnableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/L03_LambdaExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/L04_JoinAlive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L10_FunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L11_Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L12_FunctionExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L13_AllStreamMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L14_Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L16_MatchSortFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L17_MaxMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/RunnableCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/SecondClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/SingleThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/MultiThreading/ThreadCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/RunnableCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/SingleThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/ThreadCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L14_Reduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L14_Reduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L14_Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L14_Reduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L15_MethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L15_MethodReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,46 +86,7 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L14_Reduce">
-    <configuration name="L10_FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L10_FunctionalInterface" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day36lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L11_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L11_Predicate" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day36lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L12_FunctionExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L12_FunctionExpression" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day36lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.L17_MaxMin">
     <configuration name="L13_AllStreamMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L13_AllStreamMethods" />
       <module name="winterjava" />
@@ -165,13 +113,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L15_MethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L15_MethodReference" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day36lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L16_MatchSortFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L16_MatchSortFind" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day36lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L17_MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L17_MaxMin" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day36lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L17_MaxMin" />
+        <item itemvalue="Application.L16_MatchSortFind" />
+        <item itemvalue="Application.L15_MethodReference" />
         <item itemvalue="Application.L14_Reduce" />
         <item itemvalue="Application.L13_AllStreamMethods" />
-        <item itemvalue="Application.L12_FunctionExpression" />
-        <item itemvalue="Application.L11_Predicate" />
-        <item itemvalue="Application.L10_FunctionalInterface" />
       </list>
     </recent_temporary>
   </component>

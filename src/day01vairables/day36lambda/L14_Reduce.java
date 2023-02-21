@@ -17,6 +17,10 @@ public class L14_Reduce {
         int sum1 = num.stream().mapToInt(i -> i).sum();
         System.out.println(sum1);
 
+        // 2 Convert string to int and sum of them
+        List<String> str1 = Arrays.asList("1","2");
+      int convertedNums=  str1.stream().mapToInt(a->Integer.parseInt(a)).sum();
+
 
     }
 }
