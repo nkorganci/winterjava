@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/OccurenceOfEachChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/ReverseEachWordPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L18_LambdaAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day43kodluyoruzcamp/MainProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/FirstNonRepeatedChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/FirstNonRepeatedChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/OccurrenceOfChars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReverseEachWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/FirstNonRepeatedChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/FirstNonRepeatedChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/OccurrenceOfChars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/string/ReverseEachWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +85,7 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseEachWordPractice">
+  <component name="RunManager" selected="Application.MainProduct">
     <configuration name="FirstNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.FirstNonRepeatedChar" />
       <module name="winterjava" />
@@ -106,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.R" />
+    <configuration name="MainProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day43kodluyoruzcamp.MainProduct" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.string.*" />
+          <option name="PATTERN" value="day43kodluyoruzcamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +114,6 @@
     </configuration>
     <configuration name="ReverseEachWordPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.ReverseEachWordPractice" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.ReverseStr" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
@@ -158,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.arrays.TwoSum" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day41designpatterns.datastructure.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProduct" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.ReverseEachWordPractice" />
         <item itemvalue="Application.FirstNonRepeatedChar" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.R" />
-        <item itemvalue="Application.ReverseStr" />
       </list>
     </recent_temporary>
   </component>
