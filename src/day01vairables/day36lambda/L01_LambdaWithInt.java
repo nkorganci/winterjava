@@ -11,15 +11,9 @@ public class L01_LambdaWithInt {
     1- We learned "structured programming" so far, we will learn "functional programming" now.
     2- Structural programming focuses on "how to do" and " what to do"
     3- In "functional programming" we will focus on  "what to do".
-    4- t->t%2!=0 is a method.
-    5- map(t->t*t) updates the stream methods.
     6-All list questions can be solved by Lambda.
     7- If you use only Lambda Expression , return type is Optiona<Integer>
     8- If you use more than one parameter return type will not be Optional.
-    9- Solve all collection questions with Lambda
-    10- Functional programming is used with collections.
-    11- Map(t->t*t)  update the element
-    12- Distinct() removed duplicate ones.
     13- reduce(initial value, ( x, y) -> x+y)  return integer so you need to assign it to int.
         x gets initial value, y gets value from the stream
         x gets the value from x+y, y gets the value from the stream again.
@@ -32,22 +26,20 @@ public class L01_LambdaWithInt {
 
         int arr[][] = {{-4, -3, -2, -1, 0, 1, 2}, {-3, -2, -1, 0, 1, 2, 3}, {-1, 0, 1, 2, 3, 4}};
 
-        List<Integer> list1 = new ArrayList<Integer>();
-        list1.add(1);
+        List<Integer> list1 = new ArrayList<>();
+        list1.add(11);
         list1.add(2);
         list1.add(3);
         list1.add(4);
 
         System.out.println(productOfCubeDistinctOdd(list1));
+        System.out.println("Max num: "+ maxElements(list1));
 
     }
 
     public static Integer maxElements(List<Integer> list) {
 
-        /*
-        7- Create a method to calculate maximum element in the list.
-         */
-
+        /* 7- Create a method to calculate maximum element in the list. */
         return list.stream().reduce(Integer.MIN_VALUE, (x, y) -> x > y ? x : y);// If you use just Lambda Expression in reduce() method,return type is Optional<Integer>
 
 

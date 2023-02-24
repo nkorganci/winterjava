@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L18_LambdaAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43kodluyoruzcamp/MainProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/BiConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/DateTimeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/StringJoinerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day41designpatterns/datastructure/arrays/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/FlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/GroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/GroupingBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L00_LambdaMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day37functionalinterface/FunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day37functionalinterface/FunctionalInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/FlatMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/GroupingBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/GroupingBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L00_LambdaMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L01_LambdaWithInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L01_LambdaWithInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/FunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/FunctionalInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +95,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainProduct">
-    <configuration name="FirstNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.FirstNonRepeatedChar" />
+  <component name="RunManager" selected="Application.L01_LambdaWithInt">
+    <configuration name="DateTimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.DateTimeApi" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.string.*" />
+          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day43kodluyoruzcamp.MainProduct" />
+    <configuration name="Functiona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.Functiona" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day43kodluyoruzcamp.*" />
+          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseEachWordPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.ReverseEachWordPractice" />
+    <configuration name="FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.FunctionalInterface" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.string.*" />
+          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.string.Test" />
+    <configuration name="L01_LambdaWithInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L01_LambdaWithInt" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.string.*" />
+          <option name="PATTERN" value="day01vairables.day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day41designpatterns.datastructure.arrays.TwoSum" />
+    <configuration name="StringJoinerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.StringJoinerExample" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day41designpatterns.datastructure.arrays.*" />
+          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainProduct" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ReverseEachWordPractice" />
-        <item itemvalue="Application.FirstNonRepeatedChar" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.L01_LambdaWithInt" />
+        <item itemvalue="Application.StringJoinerExample" />
+        <item itemvalue="Application.DateTimeApi" />
+        <item itemvalue="Application.FunctionalInterface" />
+        <item itemvalue="Application.Functiona" />
       </list>
     </recent_temporary>
   </component>

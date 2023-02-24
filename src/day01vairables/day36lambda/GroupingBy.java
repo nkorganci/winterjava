@@ -11,10 +11,11 @@ public class GroupingBy {
     public static void main(String[] args) {
 
         List<Employee> list = new ArrayList<>();
-        list.add(new Employee("a",1,1));
-        list.add(new Employee("ab",1,1));
-        list.add(new Employee("a",12,1));
-        list.add(new Employee("a",1,14));
+        list.add(new Employee("a1",1,11));
+        list.add(new Employee("a1",12,21));
+        list.add(new Employee("a2",3,31));
+        list.add(new Employee("a3",3,41));
+
 
         //Categorize according to Single Column.
        Map<String, List<Employee>> map =  list.stream().collect(groupingBy(Employee::getName));
@@ -32,9 +33,9 @@ public class GroupingBy {
 }
 
 class Employee{
-    String name;
-    int age;
-    int salary;
+   private String name;
+    private int age;
+    private  int salary;
 
     public Employee(String name, int age, int salary) {
         this.name = name;
