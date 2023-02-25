@@ -5,21 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/BiConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/DateTimeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/StringJoinerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day38methodreference/MethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day38methodreference/ReferenceStaticMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/FlatMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/GroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/GroupingBy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L00_LambdaMethods.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day37functionalinterface/FunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day37functionalinterface/FunctionalInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/FlatMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/GroupingBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/GroupingBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L00_LambdaMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/ArraySetAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Clock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Constructor01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/County.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Exception01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Exception03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/ForLoopVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Interface02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/LIstarrayq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/MainMethodOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/MethodOverloading01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Q008AutoBoxing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Q01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Q13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Shape01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/StringBuilder01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Switch01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Te2st2342.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Teasdfst33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test00.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test045.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test051.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/Test33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day40CodeUsingJava/var_repeat.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day01vairables/day36lambda/L01_LambdaWithInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day36lambda/L01_LambdaWithInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/FunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day37functionalinterface/FunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/ArraySetAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Constructor01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Equals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Exception01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Exception022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Exception03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/ForLoopVar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Interface02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/LIstarrayq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/MainMethodOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/MethodOverloading01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Q008AutoBoxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Q009.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Q01LabelWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Shape01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/StringBuilder01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Switch01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/ifq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day40CodeUsingJava/var_repeat.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,38 +157,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functiona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.Functiona" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.FunctionalInterface" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="L01_LambdaWithInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01vairables.day36lambda.L01_LambdaWithInt" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day01vairables.day36lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day38methodreference.MethodReference" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day38methodreference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodReferenceTechie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day38methodreference.MethodReferenceTechie" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day38methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,10 +212,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.L01_LambdaWithInt" />
+        <item itemvalue="Application.MethodReferenceTechie" />
+        <item itemvalue="Application.MethodReference" />
         <item itemvalue="Application.StringJoinerExample" />
         <item itemvalue="Application.DateTimeApi" />
-        <item itemvalue="Application.FunctionalInterface" />
-        <item itemvalue="Application.Functiona" />
       </list>
     </recent_temporary>
   </component>

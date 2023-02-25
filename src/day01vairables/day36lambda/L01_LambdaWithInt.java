@@ -33,14 +33,19 @@ public class L01_LambdaWithInt {
         list1.add(4);
 
         System.out.println(productOfCubeDistinctOdd(list1));
-        System.out.println("Max num: "+ maxElements(list1));
+        maxElements(list1);
 
     }
 
-    public static Integer maxElements(List<Integer> list) {
+    public static void maxElements(List<Integer> list) {
 
-        /* 7- Create a method to calculate maximum element in the list. */
-        return list.stream().reduce(Integer.MIN_VALUE, (x, y) -> x > y ? x : y);// If you use just Lambda Expression in reduce() method,return type is Optional<Integer>
+        /* QUESTIONS: Create a method to calculate maximum element in the list. */
+        //1st Way Reduce
+        int max1= list.stream().reduce(Integer.MIN_VALUE, (x, y) -> x > y ? x : y);
+        //2nd Way
+        int max2 = list.stream().min(Integer::compareTo).get();
+
+
 
 
     }
