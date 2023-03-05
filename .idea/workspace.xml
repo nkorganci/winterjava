@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day04ififelseifthenelse/GuardClouses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day36lambda/L01_LambdaWithInt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +85,13 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L01_LambdaWithInt">
-    <configuration name="DateTimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day37functionalinterface.DateTimeApi" />
+  <component name="RunManager" selected="Application.GuardClouses">
+    <configuration name="GuardClouses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day04ififelseifthenelse.GuardClouses" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01vairables.day37functionalinterface.*" />
+          <option name="PATTERN" value="day01vairables.day04ififelseifthenelse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuardClouses" />
         <item itemvalue="Application.L01_LambdaWithInt" />
         <item itemvalue="Application.MethodReferenceTechie" />
         <item itemvalue="Application.MethodReference" />
         <item itemvalue="Application.StringJoinerExample" />
-        <item itemvalue="Application.DateTimeApi" />
       </list>
     </recent_temporary>
   </component>
