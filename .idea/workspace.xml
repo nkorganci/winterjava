@@ -5,89 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day41datastructurealgorith/string/RemoveDuplicates83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41datastructurealgorith/string/ReverseString344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day41datastructurealgorith/arrays/TwoSum1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/Searching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day04ififelseifthenelse/GuardClouses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/winterjava/day01vairables/day04ififelseifthenelse/GuardClouses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/CompileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/OptionalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/OptionalClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/PojoClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/Reflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/SAMPLE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/SerializableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/SingletonClassExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/SingletonClassExampleReflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/SpringBeanVsJavaBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/TestReflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/ToSTringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/ToStringClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/FindMinMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/MissingNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/MissingNumberInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/RemoveEvenIntegersFromArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/RotateImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/SecondBestInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/SortingArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/SumOfDiagonals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/Udemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/udemy/MaximumMultiplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/udemy/MissNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/arrays/udemy/TwoSumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/binarysearchtree/BinaryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/binarysearchtree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/binarysearchtree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/binarytree/BinaryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/binarytree/BinaryTreePreorder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/BalancedBrackets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/CamelCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/HappyNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/InvertCaseOfString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/ReorganizeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/SelfDescriptiveNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/SelfDescriptiveNumber1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/chase/UglyNumbersFactors235.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/general/JumpStatements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/general/ReverseNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/general/Swapping2Numbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/linkedudemy/LinkedList1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/linkedudemy/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/linkedudemy/Node1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/linked/linkedudemy/Questions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/pattern/LeftTriangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/pattern/Pattern1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/queue/QueueArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/queue/QueueArrayMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/ArrayNumbersProducts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/RecursionLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/recursion/recursionudemy/fibonacciNthNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/FirstNonRepeatedChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/OccurenceOfEachChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/RemoveDuplicateChars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/RemoveRepeatedChars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReplaceCharWithItsNumberOfOccurrence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReverseEachWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReverseEachWordPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/ReverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/SortingStringChars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/string/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/timecomplexity/PrintArraysAsPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/timecomplexity/SumAndMultiplicationOfArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/ContainerWithMostWater11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/MaximumSumInSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/MaximumSumSubArrayInK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/MoveZeros283.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/RemoveDuplicatesInAnArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/SquareOfSortedArray977.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/winterjava/day41designpatterns/datastructure/twopointers/TwoSumIIInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day41datastructurealgorith/string/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +83,7 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseString344">
+  <component name="RunManager" selected="Application.TwoSum1">
     <configuration name="GuardClouses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01vairables.day04ififelseifthenelse.GuardClouses" />
       <module name="winterjava" />
@@ -184,19 +103,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day01vairables.day36lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day38methodreference.MethodReference" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day38methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day41datastructurealgorith.arrays.TwoSum1" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day41datastructurealgorith.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum1" />
         <item itemvalue="Application.ReverseString344" />
         <item itemvalue="Application.GuardClouses" />
         <item itemvalue="Application.L01_LambdaWithInt" />
         <item itemvalue="Application.MethodReferenceTechie" />
-        <item itemvalue="Application.MethodReference" />
       </list>
     </recent_temporary>
   </component>
@@ -424,6 +343,11 @@
           <url>file://$PROJECT_DIR$/src/day41datastructurealgorith/string/RemoveDuplicateChars.java</url>
           <line>62</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day41datastructurealgorith/arrays/TwoSum1.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
