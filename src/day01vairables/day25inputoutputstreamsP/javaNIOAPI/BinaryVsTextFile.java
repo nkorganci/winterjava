@@ -12,7 +12,7 @@ public class BinaryVsTextFile {
 //        }
 
         //Reading from a text line
-        try(BufferedReader in = new BufferedReader(new FileReader("example.txt"))){
+        try(BufferedReader in = new BufferedReader(new FileReader("src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/example.txt"))){
             String line = in.readLine(); //Reading one line from the file
             System.out.println(line);
         } catch (FileNotFoundException e) {

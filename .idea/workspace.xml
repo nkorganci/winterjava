@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8048d139-27a7-40ea-ad9d-33b067215e40" name="Default Changelist" comment="12 20">
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/BinaryVsTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/ChainedExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/ExceptionsAcrossMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/ThrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/ThrowException2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01vairables/day28exceptions_41/TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/annotations/PersonAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day17arraylists_V24/collection1/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day17arraylists_V24/collection1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day17arraylists_V24/collection1/TheArrayProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/TextFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/BinaryVsTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01vairables/day25inputoutputstreamsP/javaNIOAPI/BinaryVsTextFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,20 @@
       <recent name="day41designpatterns.singleton.general" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChainExample">
+  <component name="RunManager" selected="Application.TheArrayProblem">
+    <configuration name="BinaryVsTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day25inputoutputstreamsP.javaNIOAPI.BinaryVsTextFile" />
+      <module name="winterjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01vairables.day25inputoutputstreamsP.javaNIOAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChainExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01vairables.day28exceptions_41.ChainExample" />
       <module name="winterjava" />
@@ -118,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day28exceptions_41.ThrowException" />
+    <configuration name="TextFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day25inputoutputstreamsP.javaNIOAPI.TextFileExample" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01vairables.day28exceptions_41.*" />
+          <option name="PATTERN" value="day01vairables.day25inputoutputstreamsP.javaNIOAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,25 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowException2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day28exceptions_41.ThrowException2" />
+    <configuration name="TheArrayProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01vairables.day17arraylists_V24.collection1.TheArrayProblem" />
       <module name="winterjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01vairables.day28exceptions_41.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01vairables.day28exceptions_41.TryCatch" />
-      <module name="winterjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01vairables.day28exceptions_41.*" />
+          <option name="PATTERN" value="day01vairables.day17arraylists_V24.collection1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheArrayProblem" />
+        <item itemvalue="Application.TextFileExample" />
+        <item itemvalue="Application.BinaryVsTextFile" />
         <item itemvalue="Application.ChainExample" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.ThrowException" />
-        <item itemvalue="Application.ThrowException2" />
-        <item itemvalue="Application.TryCatch" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +364,29 @@
           <url>file://$PROJECT_DIR$/src/day01vairables/day28exceptions_41/ThrowException2.java</url>
           <line>13</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day01vairables/annotations/PersonAnnotation.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day01vairables/annotations/PersonAnnotation.java</url>
+          <line>11</line>
+          <properties class="day01vairables.annotations.PersonAnnotation" method="compareTo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day01vairables/annotations/PersonAnnotation.java</url>
+          <line>6</line>
+          <properties class="day01vairables.annotations.PersonAnnotation" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
